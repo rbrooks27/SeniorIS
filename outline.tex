@@ -1,0 +1,313 @@
+% To compile using latexmk on the command line, run the following: 
+% latexmk -pdf outline.tex
+
+\documentclass[11pt]{article}
+
+% ---------- Page formatting ----------
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\onehalfspacing
+
+% ---------- Graphics ----------
+\usepackage{graphicx}
+\usepackage{float}
+
+% ---------- Math ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+% ---------- ACS citations ----------
+\usepackage{achemso}
+% \setkeys{acs}{articletitle=true}
+
+% ---------- Title ----------
+\title{\textbf{Computational Identification of High-Altitude Molecules Using Molecular Networking and Liquid Chromatography High-Resolution Mass Spectrometry (LC-HRMS): Developing Software by Chemists, for Chemists}}
+\author{Raelyn Brooks}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\nocite{*}
+
+\begin{doublespace}
+
+\section{Abstract}
+    Written after the results are complete. Summarize the environmental problem, research question, methods, software contribution, computational evaluation, chemical case studies, principal findings, and limitations.
+
+\section{Chapter 1: Introduction and Theoretical Background}
+    \subsection{Research Problem and Motivation}
+        \begin{itemize}
+            \item Organic contaminants in remote, high-altitude environments
+            \item The challenge of identifying unknown molecular features
+            \item The need for reliable and reproducible molecular networking
+        \end{itemize}
+
+    \subsection{Environmental and Chemical Background}
+        \begin{itemize}
+            \item Long-range transport of organic contaminants
+            \item High-altitude and remote surface-water environments
+            \item Previous Wooster research and the current identification gap
+        \end{itemize}
+
+    \subsection{LC-HRMS, Suspect Screening, and Non-Targeted Analysis}
+        \begin{itemize}
+            \item LC-HRMS and tandem mass spectrometry
+            \item Molecular features versus identified compounds
+            \item Suspect screening and non-targeted analysis
+            \item Limitations of current identification approaches
+        \end{itemize}
+
+    \subsection{Molecular Networking and Theoretical Foundations}
+        \begin{itemize}
+            \item MS/MS fragmentation and spectral similarity
+            \item Cosine similarity and molecular-network construction
+            \item Graph theory: nodes, edges, and connected components
+            \item Network visualization and interpretation
+            \item Limitations of spectral similarity as evidence of chemical identity
+        \end{itemize}
+    
+    \subsection{Existing Software and Research Gap}
+        \begin{itemize}
+            \item MS-DIAL and GNPS in the existing workflow
+            \item Documented limitations in the Wooster research workflow
+            \item The need for software designed around chemists' needs
+        \end{itemize}
+    
+    \subsection{Research Question and Specific Aims}
+        Central research question: What computational workflow and interface are needed to make molecular networking reliable, reproducible, and useful for Wooster's environmental HRMS research?
+        \begin{itemize}
+        \item Aim 1: Define the chemistry and data requirements.
+        \item Aim 2: Develop an end-to-end molecular-networking workflow.
+        \item Aim 3: Evaluate computational correctness, reproducibility, performance, and workflow usefulness.
+        \item Aim 4: Apply the software to environmental HRMS case studies.
+        \end{itemize}
+    
+    \subsection{Project Scope and Thesis Contributions}
+        \begin{itemize}
+            \item Clarify what the software will and will not do.
+            \item Identify the expected Chemistry and Computer Science contributions.
+            \item Explain the organization of the thesis.
+        \end{itemize}
+
+\section{Chapter 2: Methodology, Research Design, and Software Development}
+    \subsection{Overall Research Design and Workflow}
+        \begin{itemize}
+            \item Overall research approach and data flow
+            \item Relationship between the chemistry and computational components
+            \item Research datasets and evaluation strategy
+        \end{itemize}
+
+    \subsection{Environmental Samples and Chemistry Experimental Methods}
+        \begin{itemize}
+        \item Sample origins, locations, and sample types
+            \item Instrumentation and analytical conditions
+            \item LC-HRMS and MS/MS acquisition
+            \item Positive- and negative-ion modes, where applicable
+            \item Clarification of work performed by previous researchers 
+        \end{itemize}
+    
+    \subsection{Upstream Data Processing and Chemical Annotation}
+        \begin{itemize}
+            \item MS-DIAL processing and version
+            \item Feature detection, alignment, and spectral exports, as applicable
+            \item Data-quality checks and inclusion criteria
+            \item Suspect screening and candidate annotations
+            \item Input data preparation and metadata
+            \item Identification confidence and limitations
+        \end{itemize}
+
+    \subsection{Software Requirements and System Architecture}
+        \begin{itemize}
+            \item Functional and nonfunctional requirements
+            \item Supported input formats and validation
+            \item System modules and data flow
+            \item Data structures and metadata representation
+            \item Reproducibility and provenance
+        \end{itemize}
+
+    \subsection{Spectral Comparison and Similarity Calculation}
+        \begin{itemize}
+            \item Spectrum representation and preprocessing
+            \item Peak matching and mass tolerances
+            \item Cosine similarity implementation
+            \item Edge thresholds and computational considerations
+            \item Handling missing, incomplete, or unusable spectra
+        \end{itemize}
+
+    \subsection{Molecular-Network Construction}
+        \begin{itemize}
+            \item Node and edge representation
+            \item Similarity thresholds and graph filtering
+            \item Connected components and isolated features
+            \item Linking network elements to chemical metadata
+        \end{itemize}
+
+    \subsection{User Interface Design and Interaction}
+        \begin{itemize}
+            \item Network layout and visual encodings
+            \item Node and edge selection
+            \item Feature metadata and similarity inspection
+            \item Filtering, navigation, and network exploration
+            \item Saving, exporting, or persistence, where implemented
+            \item Design decisions informed by chemist workflows
+        \end{itemize}
+
+    \subsection{Software Implementation and Reproducibility}
+        \begin{itemize}
+            \item Programming languages, libraries, and dependencies
+            \item Modular design, version control, and documentation
+            \item Error handling and logging
+            \item Configuration, parameter recording, and reproducible execution
+        \end{itemize}
+    
+    \subsection{Software Evaluation and Testing Methods}
+        \begin{itemize}
+            \item Unit, integration, and end-to-end tests
+            \item Reference calculations for similarity validation
+            \item Graph-construction correctness
+            \item Repeated-run reproducibility
+            \item Runtime and scalability measurements
+            \item Interface and workflow task evaluation
+        \end{itemize}
+
+    \subsection{Chemical Case-Study Design (Testing the Software on Real Data)}
+        \begin{itemize}
+            \item Selection of representative environmental samples
+            \item Criteria for selecting samples, features, and network clusters
+            \item Use of existing annotations and spectral evidence
+            \item Approach to interpreting known and unidentified features
+            \item Criteria for limiting chemical claims
+        \end{itemize}
+
+\section{Chapter 3: Results and Data Analysis}
+    \subsection{Environmental Dataset and Feature Summary}
+        \begin{itemize}
+            \item Dataset characteristics and sample coverage
+            \item Number of input features and usable MS/MS spectra
+            \item Available annotations, exclusions, and data limitations
+        \end{itemize}
+    
+    \subsection{Software Implementation Results}
+        \begin{itemize}
+            \item Completed workflow and supported functionality
+            \item Implemented architecture and interface
+            \item Representative input-to-network examples
+        \end{itemize}
+
+    \subsection{Computational Correctness and Validation}
+        \begin{itemize}
+            \item Similarity calculations versus reference values
+            \item Input-validation and error-handling results
+            \item Network-construction tests
+            \item Reproducibility and persistence results
+        \end{itemize}
+
+    \subsection{Software Performance and Workflow Evaluation}
+        \begin{itemize}
+            \item Runtime and memory use, where measured
+            \item Performance across tested dataset sizes
+            \item Interface and workflow task results
+            \item Requirements met, partially met, or unmet
+        \end{itemize}
+
+    \subsection{Molecular-Network Structure and Characteristics}
+        \begin{itemize}
+            \item Nodes, edges, connected components, and isolated features
+            \item Similarity-score distributions
+            \item Effects of thresholds and filtering, where evaluated
+        \end{itemize}
+
+    \subsection{Chemical Case Study 1: Annotated Molecular Features}
+        \begin{itemize}
+            \item Selected network and chemical context
+            \item Spectral relationships and available annotations
+            \item Interpretation and evidence strength
+        \end{itemize}
+    
+    \subsection{Chemical Case Study 2: Unidentified Molecular Features}
+        \begin{itemize}
+            \item Selected unknown features or network clusters
+            \item Relationships to annotated or other unidentified features
+            \item Potential chemical relationships and unresolved questions
+        \end{itemize}
+
+    \subsection{Summary of Principal Results}
+        \begin{itemize}
+            \item Concise synthesis of the strongest computational and chemical findings
+        \end{itemize}
+
+\section{Chapter 4: Discussion}
+    \subsection{Interpretation and Integration of Results}
+        \begin{itemize}
+            \item Answer the central research question using both result sets.
+            \item Explain how chemistry informed software design and evaluation.
+            \item Explain how the software supported chemical investigation.
+        \end{itemize}
+    
+    \subsection{Computational Contributions and Design Trade-Offs}
+        \begin{itemize}
+            \item Reliability, correctness, reproducibility, and usability
+            \item Strengths and weaknesses of algorithms and architecture
+            \item Comparison with intended requirements and existing workflows
+        \end{itemize}
+    
+    \subsection{Chemical Significance and Comparison with Literature}
+        \begin{itemize}
+            \item Interpretation of case-study findings
+            \item Relationship to existing environmental chemistry research
+            \item What networking reveals about unknown features
+            \item Limits on claims about identity and transformation products
+        \end{itemize}
+    
+    \subsection{Study and Implementation Limitations}
+        \begin{itemize}
+            \item Analytical and data-quality limitations
+            \item Computational and scalability limitations
+            \item Visualization and workflow limitations
+            \item Evaluation constraints and limits on generalization
+        \end{itemize}
+    
+    \subsection{Implications for Future Environmental HRMS Research}
+        \begin{itemize}
+            \item How the workflow may support future Wooster projects
+            \item Additional data, validation, or software capabilities needed
+        \end{itemize}    
+    
+\section{Chapter 5: Conclusions and Future Work}
+    \subsection{Summary of the Research}
+        Revisit the environmental problem, objectives, and approach.
+    \subsection{Principal Computer Science Contributions}
+        Summarize the implemented workflow and evaluation findings.
+    \subsection{Principal Chemistry Contributions}
+        Summarize the supported chemical findings and their significance.
+    \subsection{Answer to the Central Research Question}
+        State what the project demonstrated and what remains unresolved.
+    \subsection{Future Work/Directions}
+        Additional validation, environmental datasets, software improvements, and further chemical investigation.
+    \subsection{Final Remarks}
+        Conclude with the project's contribution to computational chemistry.
+
+\end{doublespace}
+
+% ---------- References ----------
+\newpage
+\bibliography{references.bib}
+
+% ---------- Appendices ----------
+\appendix
+
+\section{Supported Input Formats and Data Schema}
+\section{Additional Computational Methods and Test Cases}
+\section{Supplementary Software Evaluation Results}
+\section{Additional Molecular-Network Figures and Chemical Data}
+\section{Software Setup and Reproducibility Instructions}
+\section{AI Use Documentation, as Required by Departmental Policy}
+
+\end{document}
