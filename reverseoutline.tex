@@ -1,0 +1,142 @@
+% To compile using latexmk on the command line, run the following: 
+% latexmk -pdf reverseoutline.tex
+
+\documentclass[11pt]{article}
+
+% ---------- Page formatting ----------
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\onehalfspacing
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.25em, topsep=0.25em}
+
+% ---------- Graphics ----------
+\usepackage{graphicx}
+\usepackage{float}
+
+% ---------- Math ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+% ---------- ACS citations ----------
+\usepackage{achemso}
+% \setkeys{acs}{articletitle=true}
+
+% ---------- Title ----------
+\title{\textbf{Chemistry Reverse Outline}\\
+\large Background and Significance}
+\author{Raelyn Brooks}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\nocite{*}
+
+\begin{doublespace}
+
+\section{Purpose and Scope}
+    This reverse outline examines the existing ``Background and Significance'' section of my Junior I.S. paper, \textit{Computational Identification of Unknown Organic Contaminants and Molecules in Remote Environments via Molecular Networking}.
+
+\section{Reverse Outline of Background and Significance}
+
+    \subsection{2.1 Environmental Contaminants}
+        \begin{enumerate}[label=\textbf{Paragraph \arabic*:}, leftmargin=*]
+            \item \textbf{Subject:} Anthropogenic chemicals are released through industrial activity, agriculture, and consumer-product use.\\
+            \textbf{Function:} Introduces the broad environmental problem and establishes why organic contaminants deserve investigation.
+            \item \textbf{Subject:} Contaminants, including caffeine, pharmaceuticals, and industrial additives, have been reported in remote environments such as Everest, Kilimanjaro, and the Qinghai--Tibetan Plateau.\\
+            \textbf{Function:} Connects the general problem to the high-altitude locations relevant to the research and shows that remoteness does not guarantee chemical isolation.
+            \item \textbf{Subject:} High-altitude ecosystems may be vulnerable to contaminant deposition, persistence under cold conditions, and later release during snowmelt.\\
+            \textbf{Function:} Explains the environmental importance of studying these settings and the potential consequences of contaminant accumulation.
+        \end{enumerate}
+
+    \subsection{2.2 The Global Problem: Widespread Dispersion of Anthropogenic Chemicals}
+        \begin{enumerate}[label=\textbf{Paragraph \arabic*:}, start=4, leftmargin=*]
+            \item \textbf{Subject:} Long-range atmospheric transport distributes persistent organic chemicals across regions far from their original sources.\\
+            \textbf{Function:} Broadens the discussion from individual contaminated sites to a global transport problem.
+            \item \textbf{Subject:} Non-targeted analysis and high-resolution mass spectrometry have revealed many chemical features in environmental samples, including pesticides and pharmaceuticals in snow or precipitation.\\
+            \textbf{Function:} Provides analytical evidence that environmental mixtures are chemically complex and cannot be fully described by a small set of targeted analytes.
+            \item \textbf{Subject:} The exposome includes many potential chemical exposures, while database and reference-spectrum limitations leave numerous detected features unidentified.\\
+            \textbf{Function:} Establishes the knowledge gap between detecting a feature and confidently identifying the compound responsible for it.
+        \end{enumerate}
+
+    \subsection{2.3 Why Remote Peaks? Kilimanjaro and the Himalayas as ``Cold Traps''}
+        \begin{enumerate}[label=\textbf{Paragraph \arabic*:}, start=7, leftmargin=*]
+            \item \textbf{Subject:} Remote, high-altitude locations provide useful settings for studying the long-range movement and deposition of contaminants.\\
+            \textbf{Function:} Justifies the selection of mountainous environments as study sites.
+            \item \textbf{Subject:} Semivolatile organic compounds can undergo cold-trapping because of temperature gradients, precipitation, and terrain-related processes.\\
+            \textbf{Function:} Explains physical mechanisms that may lead to contaminant accumulation in high-altitude environments.
+            \item \textbf{Subject:} Previous studies have reported persistent contaminants in high-altitude environments.\\
+            \textbf{Function:} Establishes prior evidence for contamination and supports the need for continued environmental monitoring.
+            \item \textbf{Subject:} Important knowledge gaps remain concerning unknown and emerging contaminants, including those in the Qinghai--Tibetan Plateau region.\\
+            \textbf{Function:} Narrows the broad environmental problem to the unresolved questions motivating the current analytical work.
+        \end{enumerate}
+
+    \subsection{2.4 Atmospheric Chemistry and Transport Mechanisms}
+        \begin{enumerate}[label=\textbf{Paragraph \arabic*:}, start=11, leftmargin=*]
+            \item \textbf{Subject:} Chemicals enter the atmosphere from different sources and may undergo transformations such as oxidation and photolysis.\\
+            \textbf{Function:} Introduces atmospheric processes that affect chemical persistence and behavior during transport.
+            \item \textbf{Subject:} The ``grasshopper effect'' describes repeated volatilization and deposition that can move chemicals over long distances.\\
+            \textbf{Function:} Explains one mechanism through which contaminants may reach remote environments.
+            \item \textbf{Subject:} Orographic precipitation, snowfall, and temperature gradients influence the deposition of atmospheric contaminants in mountain environments.\\
+            \textbf{Function:} Connects atmospheric transport to the accumulation of chemicals at the study sites.
+            \item \textbf{Subject:} High-altitude environments can provide evidence of broader atmospheric transport and chemical transformation.\\
+            \textbf{Function:} Synthesizes the transport mechanisms and reinforces why these locations are scientifically informative.
+        \end{enumerate}
+
+    \subsection{2.5 Significance: Advancing Identification Beyond Traditional Targeted Approaches}
+        \begin{enumerate}[label=\textbf{Paragraph \arabic*:}, start=15, leftmargin=*]
+            \item \textbf{Subject:} Targeted analysis searches for predefined compounds and may overlook chemicals outside the selected list.\\
+            \textbf{Function:} Identifies a limitation of conventional analytical approaches and establishes the need for broader screening.
+            \item \textbf{Subject:} HRMS combined with non-targeted analysis and suspect screening can detect a broader range of known and potentially unknown chemical features.\\
+            \textbf{Function:} Introduces analytical approaches that can address some limitations of targeted analysis.
+            \item \textbf{Subject:} Existing HRMS studies demonstrate the value of broad screening, but incomplete reference libraries constrain confident identification.\\
+            \textbf{Function:} Clarifies that broad detection alone does not solve the identification problem and identifies a continuing research gap.
+            \item \textbf{Subject:} Molecular networking groups features according to similarities between their tandem mass spectra and can connect unknown features to annotated features or chemical classes.\\
+            \textbf{Function:} Presents molecular networking as a computational strategy for organizing spectral relationships and supporting chemical investigation.
+            \item \textbf{Subject:} Combining HRMS with molecular networking may improve the characterization of environmental chemical mixtures and support monitoring.\\
+            \textbf{Function:} States the intended significance of the proposed approach and brings the background toward the research objective.
+        \end{enumerate}
+
+\section{Preliminary Revision Questions}
+
+    \subsection*{1. Is every paragraph relevant to the thesis introduction?}
+        Overall, yes. The section moves from the environmental problem to long-range transport, the importance of remote high-altitude environments, and the challenge of identifying detected features. The transition to the software and workflow problem could be made more explicit so that the section leads directly to the project's computational contribution.
+
+    \subsection*{2. Is the information presented in a logical order?}
+        The broad sequence is logical: environmental contamination, global distribution, mountain environments, transport mechanisms, and analytical significance. However, Sections 2.2 and 2.3 both discuss contaminants in remote environments, while Sections 2.3 and 2.4 both explain accumulation and deposition. Their purposes should be distinguished more clearly: Section 2.2 should establish the global scope, Section 2.3 should justify the study locations, and Section 2.4 should explain the mechanisms.
+
+    \subsection*{3. Is any information repeated unnecessarily?}
+        Some overlap appears between the discussion of global distribution and the justification for remote study sites. The discussion of cold-trapping, long-range transport, temperature gradients, and precipitation also recurs across Sections 2.3 and 2.4. Keep each point where it contributes most and use cross-references or concise transitions instead of repeating the same explanation.
+
+    \subsection*{4. Does each paragraph have one clear main idea?}
+        Most paragraphs appear to have a clear purpose but it clear to me that i could have done a better job organizing them. Paragraphs covering ecosystem vulnerability or cold-trapping may combine several related mechanisms. The list of atmospheric deposition processes should be integrated into a paragraph with a clear topic sentence, or divided if the original text develops genuinely separate ideas.
+
+    \subsection*{5. Are paragraphs an appropriate length?}
+        I believe that the paragraphs are generally an appropriate length but clarity could be improved by reducing overlap and combining or splitting paragraphs as needed. The final paragraph of Section 2.5 could be split into two: one for the chemistry contribution and one for the computational contribution.
+
+    \subsection*{6. Does the introduction provide sufficient background, prior research, a gap, and significance?}
+        The section covers the environmental motivation, transport mechanisms, analytical context, limitations of targeted screening, and the need to investigate unidentified features. The research gap would be stronger if it explicitly connected incomplete reference libraries to the practical need for a reliable, reproducible molecular-networking workflow. The final transition should distinguish the chemistry contribution, which concerns interpretation of environmental HRMS features, from the computational contribution, which concerns organizing and exploring spectral relationships.
+
+\section{Priority Revisions}
+    \begin{itemize}[leftmargin=*]
+        \item Reduce overlap between the global distribution of contaminants, the justification for high-altitude study sites, and the mechanisms of atmospheric deposition.
+        \item Strengthen the transition from the limitations of targeted analysis and incomplete reference libraries to the need for molecular networking.
+        \item State more explicitly why the current research requires not only molecular networking as a concept, but also a workflow that is reliable, reproducible, and practical for chemists.
+        \item Preserve appropriate caution: spectral similarity can suggest relationships, but it does not by itself confirm chemical identity or prove a transformation pathway.
+        \item Verify the paragraph numbering against the source document's actual paragraph breaks before submitting the reverse outline.
+    \end{itemize}
+
+\end{doublespace}
+
+% ---------- References ----------
+\newpage
+\bibliography{references.bib}
+
+\end{document}
