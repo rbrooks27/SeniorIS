@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber main"] 1791946464.95277 "main.bcf" "main.bbl" "main" 1791948002.87174 0
-  "main.bcf" 1791948001 108068 a57d935adf2f0d3b72a4df5f772fedbb "pdflatex"
+["biber main"] 1791946464.95277 "main.bcf" "main.bbl" "main" 1791949592.79609 0
+  "main.bcf" 1791949591 108068 a57d935adf2f0d3b72a4df5f772fedbb "pdflatex"
   "references.bib" 1791764416 55797 d058aae3c6e82f9563d2a955eb714b9f ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1791946464.22111 "main.idx" "main.ind" "main" 1791948002.86997 0
-  "main.idx" 1791948001 6958 9f405d03d869ec055ddde5af63691966 "pdflatex"
+["makeindex main.idx"] 1791946464.22111 "main.idx" "main.ind" "main" 1791949592.79458 0
+  "main.idx" 1791949591 6958 9f405d03d869ec055ddde5af63691966 "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1791947993.7786 "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" "main.pdf" "main" 1791948002.87396 0
+["pdflatex"] 1791949583.84614 "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" "main.pdf" "main" 1791949592.79856 0
   "C:/Users/raely/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790646619 83282 621ebaed9bd86f6f3d021276677be3b2 ""
   "C:/Users/raely/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756409359 24225046 9d1ce1fb2fbe9d55c578e806ac1adf80 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -334,7 +334,7 @@
   "appendices/java.tex" 1790645710 1737 65454438519b2bd1bca2373090fff444 ""
   "appendices/math.tex" 1790645710 36719 bac2b53f9e5ccbcca94bec93b9213210 ""
   "appendices/options.tex" 1790645710 992 c726cc1836d3111f506c1b0ff832c4e7 ""
-  "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" 1791947988 20025 296951cdbc893140b2fdeed2b925596e ""
+  "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" 1791949577 20489 b4ae81eb24466b0e0c785c31f8d2f55a ""
   "chapters/chapter1.tex" 1791926122 3725 c8877fc064abdd4c8108617acd5414f4 ""
   "chapters/chapter2.tex" 1791926427 2179 510cc36043d3f76fabbedfcf07d2efd6 ""
   "chapters/chapter3.tex" 1791926465 1597 59698fc6f5b54419bd411891f9241060 ""
@@ -346,17 +346,17 @@
   "figures/scottie.jpg" 1790645711 51841 7be79e80a8ce1f5b51ef536ba140fe20 ""
   "figures/wblack.jpg" 1790645711 63076 f552cf5c22d1d24341cb854a7df5f839 ""
   "figures/woostercopyright.jpg" 1790645711 10327 9b46e4fe48ea0a2126419ec93787ec7d ""
-  "main.aux" 1791948001 25259 fa52e717d3fe4aba3e15224768fdd6e6 "pdflatex"
+  "main.aux" 1791949591 25259 fa52e717d3fe4aba3e15224768fdd6e6 "pdflatex"
   "main.bbl" 1791946470 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.exa" 1791948000 103 048b9e69ee2b9141f30149d8a6b5e2bb "pdflatex"
+  "main.exa" 1791949590 103 048b9e69ee2b9141f30149d8a6b5e2bb "pdflatex"
   "main.ind" 1791946464 5716 4503f6c9e3be7087d3c90fdc984c542b "makeindex main.idx"
-  "main.lof" 1791948001 603 8e48d90acb68b2ccb3dae5191abe0d46 "pdflatex"
-  "main.lol" 1791948001 752 db8dbe582006204b37b6fa50837398d1 "pdflatex"
-  "main.lot" 1791948001 2172 aa6610b1e13371695adbd9710981a79b "pdflatex"
-  "main.out" 1791948001 19001 fa1a07a4a5c289ae4361fcdcb5f99590 "pdflatex"
-  "main.run.xml" 1791948001 2339 701c5599c28a236675e0b8fb56d35042 "pdflatex"
-  "main.tex" 1791947988 20025 296951cdbc893140b2fdeed2b925596e ""
-  "main.toc" 1791948001 8015 ce660359e6522494d9c042144798b7f3 "pdflatex"
+  "main.lof" 1791949591 603 8e48d90acb68b2ccb3dae5191abe0d46 "pdflatex"
+  "main.lol" 1791949591 752 db8dbe582006204b37b6fa50837398d1 "pdflatex"
+  "main.lot" 1791949591 2172 aa6610b1e13371695adbd9710981a79b "pdflatex"
+  "main.out" 1791949591 19001 fa1a07a4a5c289ae4361fcdcb5f99590 "pdflatex"
+  "main.run.xml" 1791949591 2339 701c5599c28a236675e0b8fb56d35042 "pdflatex"
+  "main.tex" 1791949577 20489 b4ae81eb24466b0e0c785c31f8d2f55a ""
+  "main.toc" 1791949591 8015 ce660359e6522494d9c042144798b7f3 "pdflatex"
   "source/Clock.java" 1790645711 183 be054d8757025f456bfa48a8fa443a77 ""
   "source/Consumer.java" 1790645711 680 77373e94203814ccdf1a47c052b4312e ""
   "source/EvilEmpire.java" 1790645711 350 3e895305e6e2814b1692bd24da25e1ca ""
