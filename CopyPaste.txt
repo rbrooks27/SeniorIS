@@ -1,0 +1,17 @@
+\nocite{\*}
+\printbibliography[title=References,heading=bibintoc]
+
+\nocite{*}
+
+% \nocite{*}
+\printbibliography[title=References,heading=bibintoc]
+
+
+\nocite{\*}
+
+% \nocite{*}
+
+\nocite{Manz2023}
+\printbibliography[title=References,heading=bibintoc]
+
+\ExecuteOptions{10pt,letterpaper,twoside,onecolumn,openany,draft}

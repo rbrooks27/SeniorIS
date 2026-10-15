@@ -22,7 +22,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % use this declaration for a draft  version of your IS
-\documentclass[palatino,code,picins,tikz,kaukecopyright,openright,lshortwooster,dropcaps,verbatim,index,oneside,euler]{woosterthesis}
+\documentclass[palatino,code,picins,tikz,kaukecopyright,openright,lshortwooster,dropcaps,verbatim,index,oneside,euler,final]{woosterthesis}
 % Note that you can specify the acs option to use the American Chemical Society citation format, apa option to use the American
 % Psychological Association citation format, chicago option to use the Chicago citation format, mla option to use the Modern Language
 % Association citation format, wblack option for a grayscale Wooster "W" on the cover, and scottie option for a grayscale Scottie Mascot
@@ -302,11 +302,11 @@ or an interdisciplinary field connecting the two disciplines.
 
 \backmatter
 
-\input{appendices/math}
-\input{appendices/java}
-\input{appendices/cpp}
-\input{appendices/options}
-\input{appendices/afterword}
+%\input{appendices/math}
+%\input{appendices/java}
+%\input{appendices/cpp}
+%\input{appendices/options}
+%\input{appendices/afterword}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -314,7 +314,7 @@ or an interdisciplinary field connecting the two disciplines.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\nocite{*} % This command forces all the bibliography references to be printed -- not just 
+%\nocite{*} % This command forces all the bibliography references to be printed -- not just 
               % those that were explicitly cited in the text.  If you comment this out, the bibliography
               % will only include cited references.
 \printbibliography[title=References,heading=bibintoc]% load our Bibliography file
@@ -348,18 +348,18 @@ or an interdisciplinary field connecting the two disciplines.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifthenelse{\boolean{colophon}}{
-\begin{colophon}
-This Independent Study was designed by Dr. Jon Breitenbucher.\newline
-It was edited and set into type in Wooster, Ohio,\newline
-using the \ifthenelse{\boolean{xetex}}{\XeTeX\ typesetting system designed by Jonathan Kew}{\LaTeX\ typesetting system designed by Leslie Lamport}\newline
-and based on the original \TeX\ system of Donald Knuth.\newline
-
-The text face is Palatino, designed by Hermann Zapf in 1948,\newline
-and initially released in 1949 by the Stempel foundry and later\newline
-by other companies, most notably the Mergenthaler Linotype\newline
-Company. Palatino is optimised for legitibility with open counters,\newline
-balanced proportions, moderate stroke contrast and flared serifs.
-\end{colophon}}{}
+%\ifthenelse{\boolean{colophon}}{
+%\begin{colophon}
+%This Independent Study was designed by Dr. Jon Breitenbucher.\newline
+%It was edited and set into type in Wooster, Ohio,\newline
+%using the \ifthenelse{\boolean{xetex}}{\XeTeX\ typesetting system designed by Jonathan Kew}{\LaTeX\ typesetting system designed by Leslie Lamport}\newline
+%and based on the original \TeX\ system of Donald Knuth.\newline
+%
+%The text face is Palatino, designed by Hermann Zapf in 1948,\newline
+%and initially released in 1949 by the Stempel foundry and later\newline
+%by other companies, most notably the Mergenthaler Linotype\newline
+%Company. Palatino is optimised for legitibility with open counters,\newline
+%balanced proportions, moderate stroke contrast and flared serifs.
+%\end{colophon}}{}
 \clearpage\thispagestyle{empty}\null\clearpage
 \end{document}

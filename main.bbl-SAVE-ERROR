@@ -1,0 +1,1329 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Bittremieux2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5acf1bacec52825f872231593c17fb3b}{%
+           family={Bittremieux},
+           familyi={B\bibinitperiod},
+           given={Wout},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9602c41898ab4327f8e874ecd625e97e}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7cba53c0bc5ed94f4dcd8055d6672070}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2ce8575d5ac7da5ba91fede658a33d8a}{%
+           family={Hooft},
+           familyi={H\bibinitperiod},
+           given={Justin\bibnamedelimb J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=a4510c68ec1b602f0b9c2c8489ce3ae8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Mingxun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c87f8cdb434cfe0caa0fa62965f528b8}{%
+           family={Dorrestein},
+           familyi={D\bibinitperiod},
+           given={Pieter\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd9bb9ec2009f7313f7ac4fd0b12fbce}
+      \strng{fullhash}{ae2749d9f281f4ceac196134d20b0c37}
+      \strng{bibnamehash}{fd9bb9ec2009f7313f7ac4fd0b12fbce}
+      \strng{authorbibnamehash}{fd9bb9ec2009f7313f7ac4fd0b12fbce}
+      \strng{authornamehash}{fd9bb9ec2009f7313f7ac4fd0b12fbce}
+      \strng{authorfullhash}{ae2749d9f281f4ceac196134d20b0c37}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study compares different spectrum alignment methods for the discovery of structurally related molecules in mass spectrometry data.}
+      \field{journaltitle}{Journal of the American Society for Mass Spectrometry}
+      \field{number}{9}
+      \field{title}{Comparison of Cosine, Modified Cosine, and Neutral Loss Based Spectrum Alignment For Discovery of Structurally Related Molecules}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{pages}{1733\bibrangedash 1744}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/jasms.2c00153
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jasms.2c00153
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jasms.2c00153
+      \endverb
+    \endentry
+    \entry{Blais2015}{article}{}
+      \name{editor}{3}{}{%
+        {{hash=083b448b3d590f2639485be0211c309f}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Jules\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7fc9fd3fcdf93f1a6b7c1f88e67b36a8}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=3c9eb667c02e14fe3907cdccea74d8ed}{%
+           family={Smol},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{fullhash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{bibnamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{editorbibnamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{editornamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{editorfullhash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This book discusses the use of natural archives, such as sediments and ice cores, to track the sources and long-term trends of environmental pollution, providing valuable insights into the history of contaminants in the environment.}
+      \field{title}{Environmental Contaminants: Using Natural Archives to Track Sources and Long-Term Trends of Pollution}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/978-94-017-9541-8
+      \endverb
+    \endentry
+    \entry{Daly2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7c260b409080346ac439ad4d4aeafbbd}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={Gillian\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=792105edd2da9042058c36921d66fea8}{%
+           family={Wania},
+           familyi={W\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \strng{fullhash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \strng{bibnamehash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \strng{authorbibnamehash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \strng{authornamehash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \strng{authorfullhash}{8a263cd0e1a5b5ca149add8e500d58ae}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article reviews the occurrence and fate of organic contaminants in mountainous regions, highlighting the unique challenges posed by these environments for pollution monitoring and management.}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{number}{2}
+      \field{title}{Organic Contaminants in Mountains}
+      \field{volume}{39}
+      \field{year}{2005}
+      \field{pages}{385\bibrangedash 398}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1021/es048859u
+      \endverb
+    \endentry
+    \entry{Hupatz2025}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=120c15b99f17ac2f71b4332bb796e9cd}{%
+           family={Hupatz},
+           familyi={H\bibinitperiod},
+           given={Henriette},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0aa560b4b2ef69d807ffacc6348764e3}{%
+           family={Rahu},
+           familyi={R\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod}}}%
+        {{hash=eaad5f07f653c03568091d16a3694a65}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wen-Chao},
+           giveni={W\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \strng{fullhash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \strng{bibnamehash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \strng{authorbibnamehash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \strng{authornamehash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \strng{authorfullhash}{45c593f8f1571e2511aa2dda8d5bfbb0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article critically evaluates in silico methods for the structural annotation of chemicals identified through non-targeted screening techniques. It discusses the challenges and advancements in the field, providing insights into the potential of these methods for improving the identification and characterization of environmental contaminants. The review highlights the importance of integrating computational approaches with experimental data to enhance the reliability of chemical assessments in environmental studies.}
+      \field{journaltitle}{Analytical and Bioanalytical Chemistry}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Critical review on in silico methods for structural annotation of chemicals detected with LC/HRMS non-targeted screening}
+      \field{volume}{417}
+      \field{year}{2025}
+      \field{pages}{473\bibrangedash 493}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s00216-024-05471-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00216-024-05471-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00216-024-05471-x
+      \endverb
+    \endentry
+    \entry{Ma2025}{article}{}
+      \name{author}{11}{}{%
+        {{hash=66fdef58572a3f685f7029b548aa763a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Zhiyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d10d07ea2f325b4df76d466b74681415}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Shunlong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b5ecefa5e74745f1373c15347bb0c72f}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ea271a2af8c5e4227cb651f23be47b05}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=acb020e3025ca12e4a597cdfcfcb91b7}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Longxiang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2575ab10863fd0da6380e95fe7313bb2}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a98c0b595f8fb908631efe0f14098a0a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhonghua},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e6f332a63798e50ec98d320fcbca6811}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yuxiao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ab9c095ad2f0144e1a57a6ed4f35c6f1}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4f108d6066e181c376275753f612041a}{%
+           family={Rong},
+           familyi={R\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e13595bc707c04198ec8fd174353628}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{113abece6ca3b4e7ab69a8b087ed5116}
+      \strng{fullhash}{79e68b21b06e18ee4f1429e862315ba7}
+      \strng{bibnamehash}{113abece6ca3b4e7ab69a8b087ed5116}
+      \strng{authorbibnamehash}{113abece6ca3b4e7ab69a8b087ed5116}
+      \strng{authornamehash}{113abece6ca3b4e7ab69a8b087ed5116}
+      \strng{authorfullhash}{79e68b21b06e18ee4f1429e862315ba7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Emerging pollutants are becoming increasingly diverse, raising concerns about contamination in plateau river systems and the need for efficient assessment frameworks. In this study, non-targeted screening (NTS) was conducted at 17 sites along the Yalong River, identifying 158 waterborne pollutants including human drugs, veterinary drugs, antibiotics, pesticides, and others. An improved PBT (Persistence, Bioaccumulation, Toxicity) evaluation framework was developed by incorporating toxicity data from green algae, daphnia, and fish to enhance ecological relevance. The basin was divided into three land use regions-industrial-agricultural production area (IAPA), alpine canyon area (ACA), and alpine meadow area (AMA)-for spatial analysis. Human drugs were the dominant category (55.70 %) in both number and total peak area and exhibited the highest average PBT score (0.745). Non-metric multidimensional scaling (NMDS) and random forest modeling revealed significant differences in pollutant compositions across land use regions (p < 0.05), and a strong alignment between pollutant profiles and land use characteristics. These findings indicate that pollutant composition and spatial distribution were significantly influenced by human activities and resource utilization patterns. This study proposes a region-specific framework integrating NTS, improved PBT evaluation, and spatial analysis to support pollution management in high-altitude river basins.}
+      \field{annotation}{This article provides valuable insights into the complex interactions between human activities and pollutant distribution in river basins. The use of advanced screening techniques and ecological assessments highlights the importance of tailored approaches for effective environmental management. The findings underscore the need for ongoing research in this area to address emerging contaminants and their impacts on aquatic ecosystems.}
+      \field{issn}{0304-3894}
+      \field{journaltitle}{Journal of Hazardous Materials}
+      \field{title}{Human activity driven spatial heterogeneity of pollutants in a highland river basin revealed by non-target screening and improved PBT evaluation: A case study from the Yalong River on the Qinghai-Tibet Plateau,China}
+      \field{volume}{496}
+      \field{year}{2025}
+      \field{pages}{139493}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jhazmat.2025.139493
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304389425024094
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304389425024094
+      \endverb
+      \keyw{Non-targeted screening,Improved PBT assessment,Highland river basin,Land use impact,Random forest–NMDS analysis}
+    \endentry
+    \entry{Manz2023}{article}{}
+      \name{author}{13}{}{%
+        {{hash=631762fa4478938f882c0062816631d8}{%
+           family={Manz},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=bebf90aa6533898da4c7bec116eafb29}{%
+           family={Feerick},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94a7082734d786c160fed08016e4c072}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=611e76d38bad326ff0350083c585018f}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Y.\bibnamedelimi L.},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9bcb7921b6d95a29c812794cb9d9bedd}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=63b56128469df4c6117b0fecfe54d539}{%
+           family={Koelmel},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cdfc089ef40f6f9b33c0e0bbde481cf0}{%
+           family={Manzano},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=10e65238b81506ccbbe06aab581b22c9}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=54a741340125eb35022b3270929f1738}{%
+           family={Pennell},
+           familyi={P\bibinitperiod},
+           given={K.\bibnamedelimi D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2be2527ce9f4be7036c01fafd5c4c830}{%
+           family={Place},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=766a690cd1c78da17ca2f3e3d271aa35}{%
+           family={Godri\bibnamedelima Pollitt},
+           familyi={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a63f7d935b560a223cd077afa41ce535}{%
+           family={Prasse},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38b09b70b4adf1a829740a9b9a5ccae7}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a88c80a059f15b344f31cf88a035c618}
+      \strng{fullhash}{de9ad8e1082131275f88ae3776ea8629}
+      \strng{bibnamehash}{a88c80a059f15b344f31cf88a035c618}
+      \strng{authorbibnamehash}{a88c80a059f15b344f31cf88a035c618}
+      \strng{authornamehash}{a88c80a059f15b344f31cf88a035c618}
+      \strng{authorfullhash}{de9ad8e1082131275f88ae3776ea8629}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This review examines the use of HRMS-based non-targeted analysis and suspect screening for identifying environmental contaminants in air, water, soil, and human samples. It highlights computational workflows and current limitations in exposome research.}
+      \field{journaltitle}{Journal of Exposure Science \& Environmental Epidemiology}
+      \field{number}{4}
+      \field{title}{Non-targeted Analysis ({NTA}) and Suspect Screening Analysis ({SSA}): A Review of Examining the Chemical Exposome}
+      \field{volume}{33}
+      \field{year}{2023}
+      \field{pages}{524\bibrangedash 536}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/s41370-023-00574-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41370-023-00574-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41370-023-00574-6
+      \endverb
+    \endentry
+    \entry{Schulze2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=8ecd49df93dec6c10f865fe20f0f90ee}{%
+           family={Schulze},
+           familyi={S\bibinitperiod},
+           given={Bastian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=87a3056d7c33d764a93b781fc50bfdaa}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Youngjoon},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8eb29b32c443a30ceedb3fa83350e85c}{%
+           family={Kaserzon},
+           familyi={K\bibinitperiod},
+           given={Sarit},
+           giveni={S\bibinitperiod}}}%
+        {{hash=46f213b47e0dc8d300f0cba2ba08ee8e}{%
+           family={Heffernan},
+           familyi={H\bibinitperiod},
+           given={Amy\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0dfb3307cf08a6a485a0931e299c8ddb}{%
+           family={Dewapriya},
+           familyi={D\bibinitperiod},
+           given={Pradeep},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2ef8a770f605488541acb7f042ef62c2}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e823c3c1a1f8e0ae209bd7a94967f220}{%
+           family={{Gomez Ramos}},
+           familyi={G\bibinitperiod},
+           given={Maria\bibnamedelima Jose},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e79fe24d806ef07b295e75e323882e7a}{%
+           family={{Ghorbani Gorji}},
+           familyi={G\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=25d7012a8471abcc976971e3e596db4a}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Jochen\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=7771e889c16d005c547be256406c168b}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Kevin\bibnamedelima V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=f6f51bcba05da031731fce0d2a25579a}{%
+           family={Samanipour},
+           familyi={S\bibinitperiod},
+           given={Saer},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c19e1c95e95ba7fb1c9b2af5b1c03a2}
+      \strng{fullhash}{9659ae0290d2a11f2545bc8af661ab95}
+      \strng{bibnamehash}{1c19e1c95e95ba7fb1c9b2af5b1c03a2}
+      \strng{authorbibnamehash}{1c19e1c95e95ba7fb1c9b2af5b1c03a2}
+      \strng{authornamehash}{1c19e1c95e95ba7fb1c9b2af5b1c03a2}
+      \strng{authorfullhash}{9659ae0290d2a11f2545bc8af661ab95}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The application of non-target analysis (NTA), a comprehensive approach to characterize unknown chemicals, including chemicals of emerging concern has seen a steady increase recently. Given the relative novelty of this type of analysis, robust quality assurance and quality control (QA/QC) measures are imperative to ensure quality and consistency of results obtained using different workflows. Due to fundamental differences to established targeted workflows, new or expanded approaches are necessary; for example to minimize the risk of losing potential substances of interest (i.e. false negatives, Type II error). We present an overview of QA/QC techniques for NTA workflows published to date, specifically focusing on the analysis of environmental samples using liquid chromatography coupled to HRMS. From a QA/QC perspective, we discuss methods used for each step of analysis: sample preparation, chromatography, mass spectrometry, and data processing. We then finish with a series of recommendations to improve the quality assurance of NTA workflows.}
+      \field{annotation}{This article provides a comprehensive overview of quality assurance and quality control measures in non-target analysis workflows, highlighting the importance of robust QA/QC practices to ensure reliable results in environmental sample analysis.}
+      \field{issn}{0165-9936}
+      \field{journaltitle}{TrAC Trends in Analytical Chemistry}
+      \field{title}{An assessment of quality assurance/quality control efforts in high resolution mass spectrometry non-target workflows for analysis of environmental samples}
+      \field{volume}{133}
+      \field{year}{2020}
+      \field{pages}{116063}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trac.2020.116063
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165993620302922
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165993620302922
+      \endverb
+      \keyw{Non-target analysis,Sample preparation,Chromatography,Data processing,Data acquisition,Certainty of results,Chemical space,Quality assurance,Quality control}
+    \endentry
+    \entry{Schymanski2014}{article}{}
+      \name{author}{7}{}{%
+        {{hash=42df89dbe4a4b73eb793b6ba0d83cbdc}{%
+           family={Schymanski},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1e9d78e1be786dd19e5a545a76b430ba}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Junho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6bab367b957a28a6a7f4637aa65b4801}{%
+           family={Gulde},
+           familyi={G\bibinitperiod},
+           given={Rebekka},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bc1e51811458d660d00f99bfbadde009}{%
+           family={Fenner},
+           familyi={F\bibinitperiod},
+           given={Kathrin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3036f83191d473f6e0569712662a27b1}{%
+           family={Ruff},
+           familyi={R\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a6348ef06e7107d8fb35f8f01d8a9174}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Heinz\bibnamedelima P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=329dc2dcf5e0c1f7c14a16c4f5005590}{%
+           family={Hollender},
+           familyi={H\bibinitperiod},
+           given={Juliane},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca0d7baeb972d0d98fa7308a8dc0cb59}
+      \strng{fullhash}{2b5bd7369d168afb54b20c1502a67939}
+      \strng{bibnamehash}{ca0d7baeb972d0d98fa7308a8dc0cb59}
+      \strng{authorbibnamehash}{ca0d7baeb972d0d98fa7308a8dc0cb59}
+      \strng{authornamehash}{ca0d7baeb972d0d98fa7308a8dc0cb59}
+      \strng{authorfullhash}{2b5bd7369d168afb54b20c1502a67939}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This paper proposes a five-level confidence framework for identifying molecules in high-resolution mass spectrometry. The system is widely used in non-targeted analysis and provides standardized reporting for tentative and confirmed molecular identifications.}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{number}{4}
+      \field{title}{Identifying Small Molecules via High Resolution Mass Spectrometry: Communicating Confidence}
+      \field{volume}{48}
+      \field{year}{2014}
+      \field{pages}{2097\bibrangedash 2098}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1021/es5002105
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/es5002105
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/es5002105
+      \endverb
+    \endentry
+    \entry{Wang2016}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{hash=a4510c68ec1b602f0b9c2c8489ce3ae8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Mingxun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07605b4328cb0491ad77989ede9a74b3}{%
+           family={Carver},
+           familyi={C\bibinitperiod},
+           given={Jeremy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ada41c0b008b76909f2d474bb51fe6b}{%
+           family={Phelan},
+           familyi={P\bibinitperiod},
+           given={Vanessa\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=50f551260b972abc530b1110bc96acd3}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={Laura\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ce4812f45e7607177bf7dd477871f724}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
+      \strng{fullhash}{f8442035b6a23997b4956771412fc7d0}
+      \strng{bibnamehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
+      \strng{authorbibnamehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
+      \strng{authornamehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
+      \strng{authorfullhash}{f8442035b6a23997b4956771412fc7d0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article discusses the use of social molecular networking for the sharing and curation of mass spectrometry data, highlighting its potential to enhance collaboration and data accessibility in the field of natural products research.}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{number}{8}
+      \field{title}{Sharing and Community Curation of Mass Spectrometry Data with Global Natural Products Social Molecular Networking}
+      \field{volume}{34}
+      \field{year}{2016}
+      \field{pages}{828\bibrangedash 837}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/nbt.3597
+      \endverb
+    \endentry
+    \entry{Wilkinson2022}{article}{}
+      \name{author}{127}{}{%
+        {{hash=f709608b32227d441a8a49585c9a6348}{%
+           family={Wilkinson},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7b4c864be454930ba686c276618ff2a7}{%
+           family={Boxall},
+           familyi={B\bibinitperiod},
+           given={Alistair\bibnamedelimb B.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d5dd9ca51635963e0c63e00e1df84317}{%
+           family={Kolpin},
+           familyi={K\bibinitperiod},
+           given={Dana\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=f22c8f0680189d9d60d8b7c75dfb453e}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Kenneth\bibnamedelimb M.\bibnamedelimi Y.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=210b72e7ca21dc00e30277040c1acd5a}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Racliffe\bibnamedelimb W.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5936f85d808fd5a770f1eace2a55550e}{%
+           family={Galbán-Malagón},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Cristóbal},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2d4592e9800ed2bdf2b110a286789c8d}{%
+           family={Adell},
+           familyi={A\bibinitperiod},
+           given={Aiko\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9214b580b56c05be3883f69b2e6c61b9}{%
+           family={Mondon},
+           familyi={M\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e23cef96146403dfd0219a6b34799bc0}{%
+           family={Metian},
+           familyi={M\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a660e55cb3069a2f062d8fca64870e8c}{%
+           family={Marchant},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d502855077b51acde70395c75df63314}{%
+           family={Bouzas-Monroy},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Alejandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=31a9898327f289504024b0d5156eceff}{%
+           family={Cuni-Sanchez},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Aida},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d5ec362f58262785847945b7b37d8928}{%
+           family={Coors},
+           familyi={C\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f167c8aaa657af7d8d051c2992e78239}{%
+           family={Carriquiriborde},
+           familyi={C\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=79426c77afff9a8e3d7ee8d50da0b855}{%
+           family={Rojo},
+           familyi={R\bibinitperiod},
+           given={Macarena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=39e80cba83f4aff72d220ad36d8cb2ef}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f9f9d3dbdfae692a8e1c1f6288c1f3c}{%
+           family={Cara},
+           familyi={C\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2fc0f147e54abec91c9831551b54257e}{%
+           family={Moermond},
+           familyi={M\bibinitperiod},
+           given={Monique},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dc6fb0b54b3e11a9a0f05660af073751}{%
+           family={Luarte},
+           familyi={L\bibinitperiod},
+           given={Thais},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6cacb88d68ae66c4c3b628b13ffa0723}{%
+           family={Petrosyan},
+           familyi={P\bibinitperiod},
+           given={Vahagn},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a1b4723df20a00bf7acbdfbd046b734f}{%
+           family={Perikhanyan},
+           familyi={P\bibinitperiod},
+           given={Yekaterina},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6a18d8cae892a5993ce7309869820cae}{%
+           family={Mahon},
+           familyi={M\bibinitperiod},
+           given={Clare\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8f629ff9a0aabe4b931bdcb5e114c19b}{%
+           family={McGurk},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=497dc82fdd621960da05b358bc502521}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=785e12ca9f0b4b4938ac093476b4fd76}{%
+           family={Kormoker},
+           familyi={K\bibinitperiod},
+           given={Tapos},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d362a1a3f083bd05c3468dd5b8bb2e81}{%
+           family={Iniguez},
+           familyi={I\bibinitperiod},
+           given={Volga},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f642b18fb87d322141419906e207ffa8}{%
+           family={Guzman-Otazo},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a1df6c36a3b30e20e8712dca83ebd568}{%
+           family={Tavares},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=df1723250ad39a384f12c25995b5bfcb}{%
+           family={Figueiredo},
+           familyi={F\bibinitperiod},
+           given={Francisco\bibnamedelimb Gildasio\bibnamedelima De},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=328141cbd5a513e5e2a531fb01b0205f}{%
+           family={Razzolini},
+           familyi={R\bibinitperiod},
+           given={Maria\bibnamedelimb T.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=77fce1fa3d3bc291055a0bc72545c6ff}{%
+           family={Dougnon},
+           familyi={D\bibinitperiod},
+           given={Victorien},
+           giveni={V\bibinitperiod}}}%
+        {{hash=da85f7c063e54707adfe4c9888c8e837}{%
+           family={Gbaguidi},
+           familyi={G\bibinitperiod},
+           given={Gildas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3e26df442aa2161fb7c76e86b06ffa4b}{%
+           family={Traoré},
+           familyi={T\bibinitperiod},
+           given={Oumar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=083b448b3d590f2639485be0211c309f}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Jules\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=466d124f2971991ecfe38cab16570a58}{%
+           family={Kimpe},
+           familyi={K\bibinitperiod},
+           given={Linda\bibnamedelima E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=22a2bc8b5304607e8b0c3fba6fe4fe66}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=728e4f80c63667ec6996f91214c65643}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b1c30d06bfd0ddea90e3ac05c03d6a7a}{%
+           family={Ntchantcho},
+           familyi={N\bibinitperiod},
+           given={Romaric},
+           giveni={R\bibinitperiod}}}%
+        {{hash=86f0586e363be0b006d9a1cec097645e}{%
+           family={Pizarro},
+           familyi={P\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3f5e7696c4940ccd0ba5a15578d7e2df}{%
+           family={Ying},
+           familyi={Y\bibinitperiod},
+           given={Guang-Guo},
+           giveni={G\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=44ebbae7cc99de67544ed1f9f684f61e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chang-Er},
+           giveni={C\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=dbd333a3ac8679e9a3630f319abf24f8}{%
+           family={Páez},
+           familyi={P\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=40f55772383172d93c07ff7682f1493a}{%
+           family={Martínez-Lara},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Jina},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9661d5232b68ba43a933442199a3b8df}{%
+           family={Otamonga},
+           familyi={O\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=fb6f6c6d2d2100d2945086b334ccb1d8}{%
+           family={Poté},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=98b840bbd32c8e7d32313ea1bca0fc25}{%
+           family={Ifo},
+           familyi={I\bibinitperiod},
+           given={Suspense\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bbdb2456fb2eccdbe242fc5edfda5eb5}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod}}}%
+        {{hash=05b0c509ed85b8360dec1e0ef3d970c1}{%
+           family={Echeverría-Sáenz},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da0561bbe272c356f10804324844c2eb}{%
+           family={Udikovic-Kolic},
+           familyi={U\bibinithyphendelim K\bibinitperiod},
+           given={Nikolina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7b99638444bd9c8248bc2065d18a1434}{%
+           family={Milakovic},
+           familyi={M\bibinitperiod},
+           given={Milena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=47926d3f46d29133933fc9646a365f3e}{%
+           family={Fatta-Kassinos},
+           familyi={F\bibinithyphendelim K\bibinitperiod},
+           given={Despo},
+           giveni={D\bibinitperiod}}}%
+        {{hash=218b631e870d6f5b15a8f3bd8630884b}{%
+           family={Ioannou-Ttofa},
+           familyi={I\bibinithyphendelim T\bibinitperiod},
+           given={Lida},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ef0c10a3be2373f1c0ee84a74fd45e6f}{%
+           family={Belušová},
+           familyi={B\bibinitperiod},
+           given={Vladimíra},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9de0ad6021a93a80d0b65c1cc5b35ed7}{%
+           family={Vymazal},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4e91abb5589a57235709254a4a692fb}{%
+           family={Cárdenas-Bustamante},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b9a614477af42dc714a34e51d9771e4}{%
+           family={Kassa},
+           familyi={K\bibinitperiod},
+           given={Bayable\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3c0e3252063d780a53d66bab8c06b224}{%
+           family={Garric},
+           familyi={G\bibinitperiod},
+           given={Jeanne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a21f5c5df8bb8954eca875f94923f1ff}{%
+           family={Chaumot},
+           familyi={C\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b1da2c573accc96125cbfdead55dc39e}{%
+           family={Gibba},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=422b0485cd50a894266f0dcad7f62369}{%
+           family={Kunchulia},
+           familyi={K\bibinitperiod},
+           given={Ilia},
+           giveni={I\bibinitperiod}}}%
+        {{hash=25b118462a1e595dac6c427a1dc423ac}{%
+           family={Seidensticker},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eecba2d263ea0b7d84aef5d0f051fba0}{%
+           family={Lyberatos},
+           familyi={L\bibinitperiod},
+           given={Gerasimos},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2438ad1274600a4dd30e40aad7b16649}{%
+           family={Halldórsson},
+           familyi={H\bibinitperiod},
+           given={Halldór\bibnamedelima P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e5acad05b15d92c79fc7b380ec33c526}{%
+           family={Melling},
+           familyi={M\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13d45b2d6149abd90c696b0cf4a6256e}{%
+           family={Shashidhar},
+           familyi={S\bibinitperiod},
+           given={Thatikonda},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b1b7333f449acfbd426efd20bf3a6649}{%
+           family={Lamba},
+           familyi={L\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=38d40ed12d15fed2ef8c58bb44daa89f}{%
+           family={Nastiti},
+           familyi={N\bibinitperiod},
+           given={Anindrya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2dc829816b82ebd3dc332850fb766c06}{%
+           family={Supriatin},
+           familyi={S\bibinitperiod},
+           given={Adee},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e5a8c97cf9f302f47ded9fa126b958c}{%
+           family={Pourang},
+           familyi={P\bibinitperiod},
+           given={Nima},
+           giveni={N\bibinitperiod}}}%
+        {{hash=726e20c5ff13a46cd12d5d37a7ff782b}{%
+           family={Abedini},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19757d81d19d414ab6ddf12804595d60}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1993607c26a9b8eb004d53ee919b44fe}{%
+           family={Gharbia},
+           familyi={G\bibinitperiod},
+           given={Salem\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=30999ef4b00f8543cf7348f506a19563}{%
+           family={Pilla},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f62d67c46d2b4d7cd76775fd18fb0eb4}{%
+           family={Chefetz},
+           familyi={C\bibinitperiod},
+           given={Benny},
+           giveni={B\bibinitperiod}}}%
+        {{hash=450d3374ba0370e32943e8a8573643d2}{%
+           family={Topaz},
+           familyi={T\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cfc03254699ac50963473296280b3824}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Koffi\bibnamedelima Marcellin},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2013e79896ff8d9e9582946b5cce7826}{%
+           family={Aubakirova},
+           familyi={A\bibinitperiod},
+           given={Bakhyt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b3550eef36d7c253fcb64747090fab98}{%
+           family={Beisenova},
+           familyi={B\bibinitperiod},
+           given={Raikhan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=08391d0009f6dfda72799b0028b8c021}{%
+           family={Olaka},
+           familyi={O\bibinitperiod},
+           given={Lydia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7260c51a5caf0de4333f4f8b6030620c}{%
+           family={Mulu},
+           familyi={M\bibinitperiod},
+           given={Jemimah\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=805e6379d1e1d9f93ac890b976131c58}{%
+           family={Chatanga},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7dfe5dc70bb6c4ba8ccb58c6606387f9}{%
+           family={Ntuli},
+           familyi={N\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=47a31a38d49cae110772f57014a39e2d}{%
+           family={Blama},
+           familyi={B\bibinitperiod},
+           given={Nathaniel\bibnamedelima T.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4b0bff42accc4ff3324c07e56ac6bcdb}{%
+           family={Sherif},
+           familyi={S\bibinitperiod},
+           given={Sheck},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1f9bfe2b3e664b4e0d6acc6a7162ff46}{%
+           family={Aris},
+           familyi={A\bibinitperiod},
+           given={Ahmad\bibnamedelima Zaharin},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=ee6d1f0f3ad9b3783a3637e43c58dd2e}{%
+           family={Looi},
+           familyi={L\bibinitperiod},
+           given={Ley\bibnamedelima Juen},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=264923de25b9610aadaed7ea1ed84649}{%
+           family={Niang},
+           familyi={N\bibinitperiod},
+           given={Mahamoudane},
+           giveni={M\bibinitperiod}}}%
+        {{hash=478103878dc4cc89ef71e54b072c738b}{%
+           family={Traore},
+           familyi={T\bibinitperiod},
+           given={Seydou\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ede9bdba6e616eeed126ac5a7e969a61}{%
+           family={Oldenkamp},
+           familyi={O\bibinitperiod},
+           given={Rik},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2e4e0235551112121cbd72c0a054edc4}{%
+           family={Ogunbanwo},
+           familyi={O\bibinitperiod},
+           given={Olatayo},
+           giveni={O\bibinitperiod}}}%
+        {{hash=29988935956ded95dff06284a97fe566}{%
+           family={Ashfaq},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d776d54a842e1940ec5195f59b1019f}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98c6596045d1dade7c3ee5acc1bf6d04}{%
+           family={Abdeen},
+           familyi={A\bibinitperiod},
+           given={Ziad},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=97de49f34f426cc7bb6a312fd7f4c2e3}{%
+           family={O’Dea},
+           familyi={O\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6afeff770d243c89018ab9d56da5d667}{%
+           family={Morales-Saldaña},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Jorge\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=67624fd16ac478de9d280283730ef1d9}{%
+           family={Custodio},
+           familyi={C\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d3a94dddafa3355a02e6598e782439c1}{%
+           family={Cruz},
+           familyi={C\bibinitperiod},
+           given={Heidi},
+           giveni={H\bibinitperiod},
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+        {{hash=9eea8fb4848ad14d06299ed45e8b2947}{%
+           family={Navarrete},
+           familyi={N\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3d8f1786b8cd21cfc747a2d6b9c72d6c}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=df62d40468cd1d3fc8e7fb1852c7f808}{%
+           family={Gogra},
+           familyi={G\bibinitperiod},
+           given={Alhaji\bibnamedelima Brima},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=377aea067141bf7d91bbfd30e48add48}{%
+           family={Koroma},
+           familyi={K\bibinitperiod},
+           given={Bashiru\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eb1723f2fff66d80c4f431010e259367}{%
+           family={Cerkvenik-Flajs},
+           familyi={C\bibinithyphendelim F\bibinitperiod},
+           given={Vesna},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d1fcef41ea9d023b0b55c553b96c2262}{%
+           family={Gombač},
+           familyi={G\bibinitperiod},
+           given={Mitja},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f00209f1870a6c5c695ed23fb651e058}{%
+           family={Thwala},
+           familyi={T\bibinitperiod},
+           given={Melusi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=64e2ba6943ca123c0b7b387178607f7f}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Kyungho},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0acc44f47c9f4cea4a10fa9d29ede56c}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Habyeong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8a19adde2ff5e0a86a7ac145629b68a1}{%
+           family={Ladu},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelimb L.\bibnamedelimi Celestino},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8d62800ef76f62bc31491e98cf7c0be1}{%
+           family={Rico},
+           familyi={R\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6a6adb2ae790e63d091d6b5856c16b53}{%
+           family={Amerasinghe},
+           familyi={A\bibinitperiod},
+           given={Priyanie},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2899354a4a875a59ec4ccbb32901014e}{%
+           family={Sobek},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38f6646aa48568f1e66295ed8a6aa999}{%
+           family={Horlitz},
+           familyi={H\bibinitperiod},
+           given={Gisela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0599fb98f555f43158d7205fffd4bc5e}{%
+           family={Zenker},
+           familyi={Z\bibinitperiod},
+           given={Armin\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=59a41153bf73c422d43b7b5cf0df8657}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Alex\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=53b696b8e7008bc6327eb4ef25fab413}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jheng-Jie},
+           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=274caa048c0894407e691a1c3b20c8d8}{%
+           family={Kariuki},
+           familyi={K\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=36c67c6041c38f9e1fff5a735cb93fc9}{%
+           family={Tumbo},
+           familyi={T\bibinitperiod},
+           given={Madaka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d7644f2175687a146f6ee096f6eeefaa}{%
+           family={Tezel},
+           familyi={T\bibinitperiod},
+           given={Ulas},
+           giveni={U\bibinitperiod}}}%
+        {{hash=a65ebc7baf2667ae83e484524cf64d24}{%
+           family={Onay},
+           familyi={O\bibinitperiod},
+           given={Turgut\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=94316d9643cf31fa19f95238fd4457b2}{%
+           family={Lejju},
+           familyi={L\bibinitperiod},
+           given={Julius\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=955b415e6835d139f55ba311b42bb5e5}{%
+           family={Vystavna},
+           familyi={V\bibinitperiod},
+           given={Yuliya},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9d43d16c12e7a0d85d542f76d21e65f4}{%
+           family={Vergeles},
+           familyi={V\bibinitperiod},
+           given={Yuriy},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e709232f5eb5e317934f162a462bf416}{%
+           family={Heinzen},
+           familyi={H\bibinitperiod},
+           given={Horacio},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1a255a917078de18355d6e2fc82332f4}{%
+           family={Pérez-Parada},
+           familyi={P\bibinithyphendelim P\bibinitperiod},
+           given={Andrés},
+           giveni={A\bibinitperiod}}}%
+        {{hash=87afc816e318d60a784e086812064f51}{%
+           family={Sims},
+           familyi={S\bibinitperiod},
+           given={Douglas\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=2f465488ba5fd0f4a5016d2cbe701795}{%
+           family={Figy},
+           familyi={F\bibinitperiod},
+           given={Maritza},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b50a01cd7d40c718ee1412406fc34a54}{%
+           family={Good},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bd338078fd718dadde088de61eee468f}{%
+           family={Teta},
+           familyi={T\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4f86848403cb2ab105f65caf590cc53}
+      \strng{fullhash}{4ba470cddf8c0df368264b697f2c76f0}
+      \strng{bibnamehash}{d4f86848403cb2ab105f65caf590cc53}
+      \strng{authorbibnamehash}{d4f86848403cb2ab105f65caf590cc53}
+      \strng{authornamehash}{d4f86848403cb2ab105f65caf590cc53}
+      \strng{authorfullhash}{4ba470cddf8c0df368264b697f2c76f0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite growing evidence of the deleterious effects on ecological and human health, little is known regarding the global occurrence of pharmaceuticals in rivers. Studies assessing their occurrence are available for 75 of 196 countries, with most research conducted in North America and Western Europe. This leaves large geographical regions relatively unstudied. Here, we present the findings of a global reconnaissance of pharmaceutical pollution in rivers. The study monitored 1,052 sampling sites along 258 rivers in 104 countries of all continents, thus representing the pharmaceutical fingerprint of 471.4 million people. We show that the presence of these contaminants in surface water poses a threat to environmental and/or human health in more than a quarter of the studied locations globally. Environmental exposure to active pharmaceutical ingredients (APIs) can have negative effects on the health of ecosystems and humans. While numerous studies have monitored APIs in rivers, these employ different analytical methods, measure different APIs, and have ignored many of the countries of the world. This makes it difficult to quantify the scale of the problem from a global perspective. Furthermore, comparison of the existing data, generated for different studies/regions/continents, is challenging due to the vast differences between the analytical methodologies employed. Here, we present a global-scale study of API pollution in 258 of the world’s rivers, representing the environmental influence of 471.4 million people across\&nbsp;137 geographic regions. Samples were obtained from 1,052 locations in 104 countries (representing all continents and 36 countries not previously studied for API contamination) and analyzed for 61 APIs. Highest cumulative API concentrations were observed in sub-Saharan Africa, south Asia, and South America. The most contaminated sites were in low- to middle-income countries and were associated with areas with poor wastewater and waste management infrastructure and pharmaceutical manufacturing. The most frequently detected APIs were carbamazepine, metformin, and caffeine (a compound also arising from lifestyle use), which were detected at over half of the sites monitored. Concentrations of at least one API at 25.7\% of the sampling sites were greater than concentrations considered safe for aquatic organisms, or which are of concern in terms of selection for antimicrobial resistance. Therefore, pharmaceutical pollution poses a global threat to environmental and human health, as well as to delivery of the United Nations Sustainable Development Goals.}
+      \field{annotation}{This article provides a comprehensive overview of pharmaceutical pollution in rivers worldwide, highlighting the need for increased monitoring and regulation to protect aquatic ecosystems and human health.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{8}
+      \field{title}{Pharmaceutical pollution of the world’s rivers}
+      \field{volume}{119}
+      \field{year}{2022}
+      \field{pages}{e2113947119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2113947119
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.2113947119
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.2113947119
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.2113947119
+      \endverb
+    \endentry
+    \entry{Xu2011}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2f356fb49f8330b7171686cfe9ebb0f7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e90ad2e3d8ba39350d50a7703bc8d5c0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bc20e54573d2db853852f86802ab83de}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c29529ccbccf0b22efef37b05a213c2d}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Paromita},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8da3308712a917f8ddd6491d0a9814e8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4622823528906a7f86a323f6f41fd33e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{9beb64e545848d3c5b3c2d43818b004b}
+      \strng{fullhash}{4ec966148c52df12d466c2b5e7aaa8a1}
+      \strng{bibnamehash}{9beb64e545848d3c5b3c2d43818b004b}
+      \strng{authorbibnamehash}{9beb64e545848d3c5b3c2d43818b004b}
+      \strng{authornamehash}{9beb64e545848d3c5b3c2d43818b004b}
+      \strng{authorfullhash}{4ec966148c52df12d466c2b5e7aaa8a1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study investigates the long-range atmospheric transport of persistent organochlorinated compounds to a remote mountain site in southwestern China, highlighting the global implications of local pollution sources.}
+      \field{journaltitle}{Journal of Environmental Monitoring}
+      \field{title}{Long-range Atmospheric Transport of Persistent Organochlorinated Compounds to a Remote Mountain Site in Southwestern China}
+      \field{volume}{13}
+      \field{year}{2011}
+      \field{pages}{3119\bibrangedash 3127}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1039/c1em10470e
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
