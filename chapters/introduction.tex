@@ -162,6 +162,14 @@
 
         The score is not itself an edge. A molecular-networking workflow applies additional rules to determine which pairwise similarities are retained as connections, such as a minimum score or other filters. Different rules can produce different network densities and connected components from the same spectra. Consequently, a reproducible workflow must document its comparison method and parameter values. Chapter~2 describes the actual algorithm and edge-selection rules implemented in this project; Equation~\ref{eq:spectral-cosine} establishes the general mathematical foundation rather than claiming that a particular implementation has already been validated.
 
+        Figure~\ref{fig:LCHRMSMolecularRelationships} illustrates the computational progression from LC-HRMS data processing to molecular-network construction, highlighting how MS/MS spectral comparisons can be used to establish relationships among detected chemical features.
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=\textwidth]{figures/imgs/LC-HRMSDatatoMolecularRelationships.png}
+            \caption{Conceptual workflow connecting LC-HRMS data processing to molecular-network construction. MS-DIAL supports feature detection and processing of mass spectrometry data. MS/MS spectra associated with detected features can then be compared using cosine similarity to quantify spectral relationships. These relationships provide the basis for constructing a molecular network in which nodes represent features and edges represent supported spectral similarities. Adapted from the general molecular-networking framework described by Wang et al.~\cite{Wang2016}.}
+            \label{fig:LCHRMSMolecularRelationships}
+        \end{figure}
+
     \subsection{Graph Theory: Nodes, Edges, and Connected Components}\label{subsec:graph-theory}
 
         % Graph theory provides a formal way to represent relationships among objects. In molecular networking, nodes represent features and edges represent the spectral relationships retained by the workflow. A connected component is a set of nodes connected through paths in the graph. Isolated nodes have no retained edges under the selected network criteria.
@@ -170,6 +178,15 @@
         A molecular network can be represented as a graph $G=(V,E)$, where $V$ is the set of nodes representing analytical features and $E$ is the set of retained spectral relationships. An edge may carry a similarity score or other metadata describing the evidence for the relationship. This representation provides a computational structure for organizing large sets of pairwise comparisons and exploring groups of related observations~\cite{Barabasi2016,Wang2016}.
 
         A \emph{connected component} is a maximal set of nodes linked through paths in the graph. Components can help organize a network into smaller groups for inspection, while isolated nodes represent features without retained edges under the chosen criteria. These are graph properties, not chemical classifications. In particular, two features in the same component may be connected only indirectly, and membership in a component does not establish a shared molecular formula, common source, or transformation pathway.
+
+        Figure~\ref{fig:MolecularNetworkExample} provides a conceptual example of a molecular network. In this representation, each node corresponds to a detected molecular feature, and edges connect features whose MS/MS spectra satisfy the selected similarity criteria. Such visualizations help researchers inspect connected components, identify clusters of related features, and prioritize candidates for further chemical investigation.
+
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=0.9\textwidth]{figures/imgs/MolecularNetworkExample.png}
+            \caption{Conceptual example of a molecular network. Nodes represent detected molecular features, and edges represent spectral similarity relationships retained after applying the selected similarity criteria. Such networks provide a visual framework for exploring related features and identifying clusters that may warrant further chemical investigation. Created in BioRender.com.}
+            \label{fig:MolecularNetworkExample}
+        \end{figure}
 
     \subsection{Network Visualization and Interpretation}\label{subsec:network-visualization}
 
@@ -200,6 +217,14 @@
 
         Mass-spectrometry analysis typically involves multiple computational stages. In the Wooster research context, MS-DIAL is used for upstream data processing and feature-level outputs, while molecular-networking approaches associated with the Global Natural Products Social Molecular Networking platform (GNPS) provide methods for organizing MS/MS relationships~\cite{Tsugawa2015,Wang2016,Schmid2021}. These tools address different analytical tasks and have established value in their respective areas. The objective of this thesis is not to suggest that the existing platforms are universally inadequate, nor to replace every stage of LC-HRMS data processing.
 
+        The existing computational workflow at the College of Wooster uses MS-DIAL for processing LC-HRMS data and GNPS for molecular-network analysis, as illustrated in Figure~\ref{fig:ExistingWorkflow}.
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=0.90\textwidth]{figures/imgs/ExistingFlow.png}
+            \caption{Overview of the existing molecular-networking workflow used in environmental HRMS research at the College of Wooster. Data processed using MS-DIAL are subsequently analyzed through GNPS to construct molecular networks based on MS/MS spectral relationships. This workflow serves as the foundation for evaluating existing computational practices and developing a Wooster-specific molecular-networking interface. Created in BioRender.com.}
+            \label{fig:ExistingWorkflow}
+        \end{figure}
+
         Instead, the project focuses on the transition from processed analytical data to a molecular network that can be explored and reproduced in the local research workflow. The input and export formats, metadata requirements, and comparison methods at this boundary affect whether the results remain interpretable after they leave the original processing software. The specific versions and settings used for the project data will be documented in Chapter~2.
 
     \subsection{Documented Limitations in the Wooster Research Workflow}\label{subsec:workflow-limitations}
@@ -222,20 +247,46 @@
 
 \section{Research Question and Specific Aims}\label{sec:research-question}
 
-    The central research question is:
+    The central research question guiding this interdisciplinary Senior Independent Study is:
 
-    \begin{quote}
-    What computational workflow and interface are needed to make molecular networking reliable, reproducible, and useful for Wooster's environmental HRMS research?
-    \end{quote}
+        \begin{quote}
+            What computational workflow and interface are needed to make molecular networking reliable, reproducible, and useful for Wooster's environmental HRMS research?
+        \end{quote}
 
-    The project addresses this question through four aims:
+    \subsection{Goal}\label{subsec:specific-aims-goal}
 
-    \begin{enumerate}
-        \item \textbf{Define the chemistry and data requirements.} Identify the analytical data, metadata, and evidence needed to construct and interpret molecular networks for the environmental HRMS research context.
-        \item \textbf{Develop an end-to-end molecular-networking workflow.} Implement a workflow that processes supported input data, compares MS/MS spectra, constructs a network, and allows users to inspect network elements and associated chemical information.
-        \item \textbf{Evaluate computational correctness, reproducibility, performance, and workflow usefulness.} Test calculations, input handling, graph construction, repeatability, performance, and relevant user-facing tasks using documented evaluation methods.
-        \item \textbf{Apply the software to environmental HRMS case studies.} Use selected environmental data to examine annotated and unidentified features, describe relationships supported by the evidence, and identify remaining uncertainties.
-    \end{enumerate}
+        The overarching goal of this project is to improve the interpretation of organic contaminants and other chemical features observed in surface-water samples from remote high-altitude environments by developing and evaluating a molecular-networking software workflow tailored to the College of Wooster's research needs. Mountain environments, including the Himalayas and the Qinghai--Tibetan Plateau, are relevant to studies of pollutant transport and deposition, although contamination at a particular site may reflect both atmospheric inputs and local activity~\cite{Daly2005,Xu2011,Ma2025}. In the available LC-HRMS datasets, suspect screening and spectral-library searches can support annotations of known chemicals, but many detected features remain without sufficiently supported structural assignments~\cite{Manz2023,Schulze2020,Hupatz2025}.
+
+        The working hypothesis is that a transparent, reproducible workflow combining existing feature annotations with appropriately filtered MS/MS spectral comparisons will reveal useful relationships among some annotated and unannotated features, helping chemists prioritize candidates for further investigation~\cite{Wang2016,Bittremieux2022,DallaValle2025}. This hypothesis concerns the \emph{usefulness of spectral relationships and the software that exposes them}, not a presumption that most unknown features can be structurally identified from a network. The research therefore has two linked outcomes: a tested computational tool for constructing and investigating molecular networks, and evidence-based chemical case studies using the high-altitude datasets.
+    \subsection{Aim 1: Characterize LC-HRMS/MS Data and Fragmentation Coverage}\label{subsec:aim-one}
+
+        The first aim is to establish the analytical foundation required for molecular networking by characterizing the available liquid chromatography--high-resolution tandem mass spectrometry (LC-HRMS/MS) data from high-altitude surface-water samples. The research workflow uses reversed-phase C18 chromatography and electrospray ionization (ESI) in positive and negative modes to provide complementary views of compounds with different chromatographic and ionization behavior. The experimental methods and origin of the existing samples and data will be distinguished from the computational work performed for this thesis; the relevant instrument settings and procedures will be documented in Chapter~2~\cite{Wenkai,Gray2022,NinoSuastegui2025}.
+
+        Where the existing acquisition records permit, the project will examine the coverage provided by iterative data-dependent acquisition (DDA). In this strategy, successive runs can use inclusion and exclusion lists to direct MS/MS acquisition toward additional precursor ions instead of repeatedly fragmenting the same abundant signals. Automated exclusion-list methods described in the lipidomics literature provide a methodological precedent, although their performance in that application should not be assumed to transfer unchanged to these water samples~\cite{Koelmel2017}. The emphasis here is on documenting the resulting feature and fragmentation coverage, recognizing missing or inadequate MS/MS information, and identifying which data are suitable for downstream comparisons. The expected outcome is a traceable description of the processed datasets and their suitability for molecular-network construction, rather than a claim of exhaustive chemical coverage~\cite{Fisher2022,Schulze2020}.
+
+    \subsection{Aim 2: Annotate Known Contaminants Using Existing Reference Resources}\label{subsec:aim-two}
+
+        The second aim is to establish a chemical-annotation baseline using suspect screening, existing spectral libraries, and the analytical information available for each feature. The upstream workflow uses MS-DIAL for feature detection and related processing before candidate annotations and associated spectra are examined for use in the molecular network~\cite{Tsugawa2015}. Suspect lists and reference resources can guide evaluation of environmental contaminants of concern, including pharmaceuticals, pesticides, and industrial chemicals, but a match to a database entry must be distinguished from a confirmed identification~\cite{Manz2023,Gray2022,NinoSuastegui2025}.
+
+        Assignments will be assessed using relevant evidence such as precursor accurate mass, isotope patterns, MS/MS fragmentation, retention behavior when informative, and comparison with available reference spectra or standards~\cite{Kind2018,Hupatz2025}. Identification confidence will be communicated using the Schymanski framework, including its distinction between tentative assignments and structures confirmed with appropriate reference evidence~\cite{Schymanski2014}. This aim will produce a documented set of annotated features and their confidence levels, providing both a chemical starting point for network interpretation and a baseline against which the additional usefulness of molecular networking can be considered~\cite{Chao2025}.
+
+    \subsection{Aim 3: Develop a Molecular-Networking Workflow Beyond Direct Library Matches}\label{subsec:aim-three}
+
+        The third aim is to design and implement the core computational workflow that compares MS/MS spectra and converts supported spectral relationships into a molecular network. Rather than relying entirely on matches to known library entries, this approach examines relationships among detected features. Classical and related molecular-networking methods organize MS/MS data by spectral similarity and can support exploration of chemical families or the prioritization of related unknowns~\cite{Wang2016,Schmid2021,Ernst2019}.
+
+        The software will accept defined outputs from the upstream processing workflow, associate spectra with feature identifiers and metadata, apply documented spectral filtering and peak-matching rules, calculate cosine-based similarity scores, and generate a graph according to configurable matching and edge criteria. These decisions matter because noise, alignment choices, and the similarity measure can change which spectral pairs are connected~\cite{Olivon2017,Bittremieux2022,DallaValle2025}. Graph nodes will represent the defined feature-level observations, while edges will retain their similarity evidence rather than suggesting a confirmed chemical relationship solely through visual proximity. The intended outcome is a reproducible network-construction process that allows annotated features to provide context for unannotated neighbors. Precursor-mass differences and shared fragments may motivate hypotheses about possible structural relationships, but they will not be treated as proof of specific identities or transformation pathways~\cite{Schymanski2014,Chao2025}.
+
+    \subsection{Aim 4: Build an Interactive, Chemist-Centered Software Interface}\label{subsec:aim-four}
+
+        The fourth aim addresses the Computer Science contribution beyond the similarity algorithm: an interface that allows chemists to inspect, interpret, and preserve the network without losing its connection to the underlying experimental evidence. Studies of interactive graph systems emphasize that the usefulness of a network depends on both visualization and accessible interactions, while research on end-user software engineering highlights the importance of designing computational tools around domain specialists' actual tasks~\cite{Pienta2015,Ko2011}.
+
+        The proposed interface will support inspection of selected nodes and edges, including relevant feature metadata, existing annotations, matched spectra or spectral evidence, similarity scores, and the parameters governing each connection. Where feasible within the implemented scope, users will be able to adjust network-display or filtering choices and export the network together with the information required to revisit an analysis. Layout methods and visualization design will be selected for readable exploration rather than treated as chemical evidence in themselves~\cite{Jacomy2014,Pienta2015}. This aim responds to the local need for reliable retention and export of analyses while following reproducible scientific-computing practices~\cite{Wilson2017}. The expected outcome is an inspectable, documented research interface developed for the Wooster workflow, not a general replacement for all features of MS-DIAL or GNPS.
+
+    \subsection{Aim 5: Validate the Software and Apply It to Environmental Case Studies}\label{subsec:aim-five}
+
+        The fifth aim is to determine whether the implemented workflow is computationally trustworthy and scientifically useful. Software evaluation will examine input handling, spectral matching and similarity calculations, network-construction rules, repeatability of results from equivalent inputs and settings, and the integrity of saved or exported outputs. Tests using small controlled examples will provide interpretable checks of computational correctness, while representative environmental datasets will support evaluation of execution time, network size, and interface behavior. Scalability considerations from similarity search and interactive graph research provide context for these tests, without implying that the project must implement every optimization described in that literature~\cite{Bayardo2007,Pienta2015,Wilson2017}.
+
+        The chemistry evaluation will use selected case studies from the high-altitude data: one centered on features with existing annotations and another centered on features that lack confident library matches. The investigation will document what spectral connections add to the available evidence, whether they help prioritize further study, and where uncertainty remains. Evaluating analytical findings requires attention to the distinct questions of feature detection, annotation performance, and identification confidence~\cite{Fisher2022,Schymanski2014,Chao2025}. The expected outcome is a documented assessment of both the software's strengths and limitations and the chemical insights that its molecular networks can reasonably support.
 
 \section{Project Scope and Thesis Contributions}\label{sec:scope-contributions}
 
@@ -255,4 +306,4 @@
 
     \subsection{Organization of the Thesis}\label{subsec:thesis-organization}
 
-        Chapter~2 describes the research design, environmental datasets and analytical methods, upstream processing, software requirements and implementation, network construction, and evaluation procedures. Chapter~3 presents the dataset summary, software implementation results, computational validation, performance and workflow evaluation, network characteristics, and chemical case studies. Chapter~4 interprets the computational and chemical findings, discusses design trade-offs and limitations, and considers implications for future environmental HRMS research. Chapter~5 summarizes the contributions, answers the central research question, and identifies future directions.
+        Chapter~2 describes the research design, environmental datasets and analytical methods, upstream processing, software requirements and implementation, network construction, and evaluation procedures. Chapter~3 presents the dataset summary, software implementation results, computational validation, performance and workflow evaluation, network characteristics, and chemical case studies. Chapter~4 interprets the computational and chemical findings, discusses design trade-offs and limitations, and considers implications for future environmental HRMS research. Chapter~5 summarizes the contributions, answers the central research question, and identifies future directions.~\cite{Tsugawa2020}
