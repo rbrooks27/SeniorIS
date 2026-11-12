@@ -19,6 +19,81 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Barabasi2016}{book}{}
+      \name{author}{2}{}{%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=5996b175b9fa8551c3fa09da65426167}{%
+           family={Pósfai},
+           familyi={P\bibinitperiod},
+           given={Márton},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \strng{fullhash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \strng{bibnamehash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \strng{authorbibnamehash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \strng{authornamehash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \strng{authorfullhash}{3c0a20b3e913df9584530b6efb70d6c7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This textbook establishes the fundamental mathematical and topological principles of network science, exploring graph structures, connectivity, and complex systems. In this project, it provides the theoretical framework for representing mass spectrometry feature data as graph networks, where molecular features act as nodes and cosine similarity scores function as weighted edges.}
+      \field{isbn}{978-1-107-07626-6}
+      \field{title}{Network Science}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://networksciencebook.com/
+      \endverb
+      \verb{url}
+      \verb https://networksciencebook.com/
+      \endverb
+    \endentry
+    \entry{Bayardo2007}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3f33ae52e91afb678e9dd002f5cc465e}{%
+           family={Bayardo},
+           familyi={B\bibinitperiod},
+           given={Roberto\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a45d0e971d3aee9738599ff344106ca3}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1fa67215136cecbea67259a51ba99774}{%
+           family={Srikant},
+           familyi={S\bibinitperiod},
+           given={Ramakrishnan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{436b847429956b4648d637eee997a203}
+      \strng{fullhash}{436b847429956b4648d637eee997a203}
+      \strng{bibnamehash}{436b847429956b4648d637eee997a203}
+      \strng{authorbibnamehash}{436b847429956b4648d637eee997a203}
+      \strng{authornamehash}{436b847429956b4648d637eee997a203}
+      \strng{authorfullhash}{436b847429956b4648d637eee997a203}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This paper presents high-performance algorithms for computing all-pairs similarity across large sets of sparse, high-dimensional vectors. It offers algorithmic strategies relevant to optimizing backend cosine similarity matrix calculations for mass spectral datasets.}
+      \field{booktitle}{Proceedings of the 16th International Conference on World Wide Web}
+      \field{title}{Scaling up all pairs similarity search}
+      \field{year}{2007}
+      \field{pages}{131\bibrangedash 140}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/1242572.1242591
+      \endverb
+    \endentry
     \entry{Bittremieux2022}{article}{}
       \name{author}{6}{}{%
         {{hash=5acf1bacec52825f872231593c17fb3b}{%
@@ -83,7 +158,7 @@
       \endverb
     \endentry
     \entry{Blais2015}{article}{}
-      \name{editor}{3}{}{%
+      \name{author}{3}{}{%
         {{hash=083b448b3d590f2639485be0211c309f}{%
            family={Blais},
            familyi={B\bibinitperiod},
@@ -109,18 +184,232 @@
       \strng{namehash}{2fa032dae34af49fe9fa060d3b66a2e3}
       \strng{fullhash}{2fa032dae34af49fe9fa060d3b66a2e3}
       \strng{bibnamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
-      \strng{editorbibnamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
-      \strng{editornamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
-      \strng{editorfullhash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{authorbibnamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{authornamehash}{2fa032dae34af49fe9fa060d3b66a2e3}
+      \strng{authorfullhash}{2fa032dae34af49fe9fa060d3b66a2e3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{editor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{This book discusses the use of natural archives, such as sediments and ice cores, to track the sources and long-term trends of environmental pollution, providing valuable insights into the history of contaminants in the environment.}
       \field{title}{Environmental Contaminants: Using Natural Archives to Track Sources and Long-Term Trends of Pollution}
       \field{year}{2015}
       \verb{doi}
       \verb 10.1007/978-94-017-9541-8
+      \endverb
+    \endentry
+    \entry{Catalan2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=81f9bdad13bd375ff6787b8cf04c0f92}{%
+           family={Catalan},
+           familyi={C\bibinitperiod},
+           given={Jordi.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \strng{fullhash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \strng{bibnamehash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \strng{authorbibnamehash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \strng{authornamehash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \strng{authorfullhash}{81f9bdad13bd375ff6787b8cf04c0f92}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This book chapter discusses the use of lake sediments from mountain regions as archives for tracking long-range atmospheric transport of various pollutants, including trace metals, polycyclic aromatic hydrocarbons, and organohalogen compounds. It emphasizes the importance of understanding atmospheric transport processes and their impact on remote ecosystems, particularly in the context of global environmental change. The chapter provides valuable insights for my research on the fate and transport of organic contaminants in high-altitude environments, highlighting the need for integrated approaches that combine field measurements, laboratory analyses, and modeling efforts.}
+      \field{title}{Tracking Long-Range Atmospheric Transport of Trace Metals, Polycyclic Aromatic Hydrocarbons, and Organohalogen CompoundsUsing Lake Sediments of Mountain Regions}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/978-94-017-9541-8
+      \endverb
+    \endentry
+    \entry{Chao2025}{article}{}
+      \name{author}{13}{}{%
+        {{hash=dd15086451465719641101890732c9c1}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a0b9e52f9e8bcdba847abe5e752ba068}{%
+           family={Minucci},
+           familyi={M\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e1b3d87c4dd3da1e570bb2abebd60e1c}{%
+           family={Ferland},
+           familyi={F\bibinitperiod},
+           given={Troy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ab427c407959e51bd0ed8f91955f98b1}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi Tyler},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=552f4994101c2ee0c6c2e0e98d447db9}{%
+           family={Janesch},
+           familyi={J\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dae7fd6bc5ff52479559de34a5a474eb}{%
+           family={Rizwan},
+           familyi={R\bibinitperiod},
+           given={Safia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b2b11b78c70bcb295c14433f36cccb6f}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={Heather\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=bb58af36f572bce67d5edd5405743a22}{%
+           family={Cathey},
+           familyi={C\bibinitperiod},
+           given={Tommy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cd8e74da84485865a6a5db41b9bcc549}{%
+           family={Pu},
+           familyi={P\bibinitperiod},
+           given={Shirley},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c213d4be969e845998bbbecef1d00d0}{%
+           family={Brunelle},
+           familyi={B\bibinitperiod},
+           given={Laura\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=16f5b47a1216f83216d0de2ec0fd7399}{%
+           family={Batt},
+           familyi={B\bibinitperiod},
+           given={Angela\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=08a14c6c679a7a31e5695538cba7d1d8}{%
+           family={Sobus},
+           familyi={S\bibinitperiod},
+           given={Jon\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c88bbdd3a80d04dc20d8a9af4a9e8332}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Antony\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c03411b2cde7f88651f8a535c078ea9}
+      \strng{fullhash}{54208f7078e6501ff201764112bce9d1}
+      \strng{bibnamehash}{4c03411b2cde7f88651f8a535c078ea9}
+      \strng{authorbibnamehash}{4c03411b2cde7f88651f8a535c078ea9}
+      \strng{authornamehash}{4c03411b2cde7f88651f8a535c078ea9}
+      \strng{authorfullhash}{54208f7078e6501ff201764112bce9d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This work introduces the INTERPRET NTA computational framework, which integrates spectral similarity, metadata, and hazard scoring to prioritize chemical candidates in HRMS datasets.}
+      \field{journaltitle}{Analytical Chemistry}
+      \field{number}{29}
+      \field{title}{Prioritizing Chemical Candidates from Non-targeted Analysis Using Metadata, Spectral Similarity, and Hazard Scoring within {INTERPRET NTA}}
+      \field{volume}{97}
+      \field{year}{2025}
+      \field{pages}{15904\bibrangedash 15912}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/acs.analchem.5c02223
+      \endverb
+    \endentry
+    \entry{Coenen2026}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e86d142d383023341990baf41ac7e355}{%
+           family={Coenen},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ebbb160c2c294010641a237c4836d579}{%
+           family={Edminston},
+           familyi={E\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The College of Wooster}%
+      }
+      \list{location}{1}{%
+        {Wooster, OH}%
+      }
+      \strng{namehash}{42cc073d0e8473b84a005882887a2814}
+      \strng{fullhash}{42cc073d0e8473b84a005882887a2814}
+      \strng{bibnamehash}{42cc073d0e8473b84a005882887a2814}
+      \strng{authorbibnamehash}{42cc073d0e8473b84a005882887a2814}
+      \strng{authornamehash}{42cc073d0e8473b84a005882887a2814}
+      \strng{authorfullhash}{42cc073d0e8473b84a005882887a2814}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This undergraduate thesis explores the use of mass spectrometry-based molecular networking for the detection and identification of designer benzodiazepines, highlighting the potential of this approach for forensic and analytical applications.}
+      \field{note}{Unpublished thesis}
+      \field{title}{Detection & Identification of Designer Benzodiazepines via Mass Spectrometry-Based Molecular Networking}
+      \field{type}{Undergraduate honors thesis}
+      \field{year}{2026}
+    \endentry
+    \entry{DallaValle2025}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bc4262ac160838feafbd28f5cae1528f}{%
+           family={Dalla\bibnamedelima Valle},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=44bb3fcae693f6c0acabd83692c3096c}{%
+           family={Garcia-Aloy},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Mar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cec9eec7b50538b2a59d5b93026b18fb}{%
+           family={Robatscher},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fb11a88a3fa55139c69662a04588ffba}{%
+           family={Franceschi},
+           familyi={F\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7d5dca4bbfcafe3ffc62d69f1182f79f}{%
+           family={Oberhuber},
+           familyi={O\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a827b7054322b6960bbab154f990e977}
+      \strng{fullhash}{10ab91ce35e48b9a3ed5bfed9611a662}
+      \strng{bibnamehash}{a827b7054322b6960bbab154f990e977}
+      \strng{authorbibnamehash}{a827b7054322b6960bbab154f990e977}
+      \strng{authornamehash}{a827b7054322b6960bbab154f990e977}
+      \strng{authorfullhash}{10ab91ce35e48b9a3ed5bfed9611a662}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study presents a method for improving spectral similarity and molecular network reliability by filtering noise signals in MS/MS spectra.}
+      \field{journaltitle}{Analytical Chemistry}
+      \field{month}{7}
+      \field{note}{PMID: 40673560; PMCID: PMC12311886}
+      \field{number}{29}
+      \field{title}{Improving Spectral Similarity and Molecular Network Reliability through Noise Signal Filtering in MS/MS Spectra}
+      \field{volume}{97}
+      \field{year}{2025}
+      \field{pages}{15873\bibrangedash 15882}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/acs.analchem.5c02109
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.analchem.5c02109
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.analchem.5c02109
       \endverb
     \endentry
     \entry{Daly2005}{article}{}
@@ -156,6 +445,376 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1021/es048859u
+      \endverb
+    \endentry
+    \entry{Davidson2003}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fd264e659f28bacf1e1036203e04d330}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={Deborah\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4b0fb52405ad8e3518f4f4dbc601c73d}{%
+           family={Wilkinson},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=083b448b3d590f2639485be0211c309f}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Jules\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f53288cebebd6900fac5611ca5fd04c8}{%
+           family={Kimpe},
+           familyi={K\bibinitperiod},
+           given={Lynda\bibnamedelima E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ab288aa14fbfa3fb9629632fc965c567}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={Karen\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5b5daa8f57b2eab21055e7b063d68dea}{%
+           family={Schindler},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{334f39de59b932f28eb5dc9424b88717}
+      \strng{fullhash}{a9568ed924a30ab58586a16499757e7d}
+      \strng{bibnamehash}{334f39de59b932f28eb5dc9424b88717}
+      \strng{authorbibnamehash}{334f39de59b932f28eb5dc9424b88717}
+      \strng{authornamehash}{334f39de59b932f28eb5dc9424b88717}
+      \strng{authorfullhash}{a9568ed924a30ab58586a16499757e7d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Conifer needles from mountain areas of Alberta and British Columbia, Canada, were collected from sites that ranged in altitude from 770 to 2200 masl and were analyzed for polychlorinated biphenyls (PCBs) and organochlorine pesticides (OCs) to determine if they are progressively concentrated in colder, more elevated mountain areas, where temperatures decrease as elevation increases. Concentrations of OCs in needles ranged from 43 to 2430 pg g-1, 55−17500 pg g-1, and 11−2930 pg g-1 (dry weight), for total hexachlorocyclohexanes (HCHs), PCBs, and endosulfans, respectively. The more volatile OCs, with subcooled liquid vapor pressures (PL) > 0.1 Pa at 25 °C, increased at higher altitudes, whereas the less volatile OCs were either unrelated or inversely correlated with altitude. These spatial patterns were similar for species of spruce (Picea engelmannii and glauca) and pine (Pinus contorta and albicaulis). Back trajectories revealed that air masses arriving at these sites traveled over Asia and the Pacific Ocean before reaching the Rocky Mountains. Results from this study demonstrate that alpine ecosystems accumulate these chemicals to the same degree that is observed in polar environments that are known to receive contaminants by long-range transport.}
+      \field{annotation}{This study highlights the role of orographic cold-trapping in the accumulation of persistent organic pollutants in mountainous regions, emphasizing the need for further research on the environmental impacts of these contaminants in alpine ecosystems.}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{number}{2}
+      \field{title}{Orographic Cold-Trapping of Persistent Organic Pollutants by Vegetation in Mountains of Western Canada}
+      \field{volume}{37}
+      \field{year}{2003}
+      \field{pages}{209\bibrangedash 215}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/es020605q
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/es020605q
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/es020605q
+      \endverb
+    \endentry
+    \entry{Ernst2019}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=6beadaa767ef699eebfbe420545d5e7e}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9addf680720ca336b62944417dccdd90}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Kyo\bibnamedelima Bin},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4667cb26290b3548870c042557cd4484}{%
+           family={Caraballo-Rodríguez},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Andrés\bibnamedelima Mauricio},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=385d8003d0aad056a0a687898fc25b3e}{%
+           family={Nothias},
+           familyi={N\bibinitperiod},
+           given={Louis-Felix},
+           giveni={L\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=87892caecd9ecb82c107f4c654345504}{%
+           family={Wandy},
+           familyi={W\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ad9e1104db6c9e3a0cb8709158ffe24}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a4510c68ec1b602f0b9c2c8489ce3ae8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Mingxun},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0695427e93033966fb3bfb6de73ba348}
+      \strng{fullhash}{c8c9a4b5ffebfca77c9487562f9e19a7}
+      \strng{bibnamehash}{0695427e93033966fb3bfb6de73ba348}
+      \strng{authorbibnamehash}{0695427e93033966fb3bfb6de73ba348}
+      \strng{authornamehash}{0695427e93033966fb3bfb6de73ba348}
+      \strng{authorfullhash}{c8c9a4b5ffebfca77c9487562f9e19a7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{MolNetEnhancer integrates molecular networking with multiple annotation tools to improve structural interpretation of complex metabolomics datasets.}
+      \field{journaltitle}{Metabolites}
+      \field{number}{7}
+      \field{title}{{MolNetEnhancer}: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{144}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/metabo9070144
+      \endverb
+    \endentry
+    \entry{Wenkai}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ee6b3ebe3f1d2f70dab1897481671d57}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Wenkai},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The College of Wooster}%
+      }
+      \list{location}{1}{%
+        {Wooster, OH}%
+      }
+      \strng{namehash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \strng{fullhash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \strng{bibnamehash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \strng{authorbibnamehash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \strng{authornamehash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \strng{authorfullhash}{ee6b3ebe3f1d2f70dab1897481671d57}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This thesis investigates environmental contaminants in high-altitude water and snow samples using high-resolution mass spectrometry. It highlights the importance of computational methods for molecule identification and demonstrates how suspect screening and advanced data analysis techniques can reveal pollutants in remote ecosystems.}
+      \field{note}{Unpublished thesis}
+      \field{title}{Suspect Screening and Semi-Quantification of Organic Contaminants in Snow and Water Samples on the Qinghai--Tibet Plateau and High Mountain Regions}
+      \field{type}{Undergraduate honors thesis}
+      \field{year}{2025}
+    \endentry
+    \entry{Fisher2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1147eeb64a0297fc6302b81e0277b045}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Christine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e3ebffd485d86ae26fa3697413153ae1}{%
+           family={Peter},
+           familyi={P\bibinitperiod},
+           given={Katherine\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2653900dcb9aa2bddaacabab4466dd99}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Seth\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=52092ca5d4d57b04b98d1a4c0c423dad}{%
+           family={Schaub},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=08a14c6c679a7a31e5695538cba7d1d8}{%
+           family={Sobus},
+           familyi={S\bibinitperiod},
+           given={Jon\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bc8274bc5385948480a924b072c688c}
+      \strng{fullhash}{5b75e788c2c7c890392909776a0860f3}
+      \strng{bibnamehash}{4bc8274bc5385948480a924b072c688c}
+      \strng{authorbibnamehash}{4bc8274bc5385948480a924b072c688c}
+      \strng{authornamehash}{4bc8274bc5385948480a924b072c688c}
+      \strng{authorfullhash}{5b75e788c2c7c890392909776a0860f3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Discusses performance assessment for non-targeted analysis using HRMS, including sample classification, chemical identification, and quantitation. Relevant to evaluating identification confidence, methodological reliability, and the performance of computational NTA workflows.}
+      \field{journaltitle}{Analytical and Bioanalytical Chemistry}
+      \field{number}{22}
+      \field{title}{Approaches for assessing performance of high-resolution mass spectrometry-based non-targeted analysis methods}
+      \field{volume}{414}
+      \field{year}{2022}
+      \field{pages}{6455\bibrangedash 6471}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s00216-022-04203-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00216-022-04203-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00216-022-04203-3
+      \endverb
+    \endentry
+    \entry{Gray2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=1b534e00d79a80cd21f85a1c06660b41}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Rebekah},
+           giveni={R\bibinitperiod}}}%
+        {{hash=67513447be2af9d4b9a001ada7a1517d}{%
+           family={Painter},
+           familyi={P\bibinitperiod},
+           given={Eve},
+           giveni={E\bibinitperiod}}}%
+        {{hash=165dcd8484f9de0150d64ceaf8d3ad57}{%
+           family={Sprankle},
+           familyi={S\bibinitperiod},
+           given={Jameson\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=c448e810719621282dd6093a238514d2}{%
+           family={Crawford},
+           familyi={C\bibinitperiod},
+           given={Alex\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7c36072b06d13669b591379e449fc103}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Jillian\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ad0bf36cb43ace47ac231071ce2449b6}{%
+           family={Frazier},
+           familyi={F\bibinitperiod},
+           given={Marian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6e9e2a0e11fae2a257faf479dd5054fa}{%
+           family={Faust},
+           familyi={F\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c2f0b4675fd2644c129ec09169f2a4f}
+      \strng{fullhash}{da878cf34108dcdf9786f04582d14ab5}
+      \strng{bibnamehash}{1c2f0b4675fd2644c129ec09169f2a4f}
+      \strng{authorbibnamehash}{1c2f0b4675fd2644c129ec09169f2a4f}
+      \strng{authornamehash}{1c2f0b4675fd2644c129ec09169f2a4f}
+      \strng{authorfullhash}{da878cf34108dcdf9786f04582d14ab5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study employs high-resolution mass spectrometry (HRMS) for suspect screening of pesticides in environmental samples, demonstrating the method's effectiveness in identifying contaminants in complex matrices like rain and snow.}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{title}{Suspect Screening for Pesticides in Rain and Snow Using Liquid Chromatography High-Resolution Mass Spectrometry}
+      \field{volume}{291}
+      \field{year}{2022}
+      \field{pages}{119389}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.atmosenv.2022.119389
+      \endverb
+    \endentry
+    \entry{Hagberg2008}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=94707ad079516150870c2f9a2932df46}{%
+           family={Hagberg},
+           familyi={H\bibinitperiod},
+           given={Aric\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=12f80aa3aca50b90f024775e52dde170}{%
+           family={Schult},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=58fb3a96810da0d56606677a3ce7e677}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={Pieter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=1439d919d1a9758d1392ccdf67d72dd2}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Gërard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5d98f8482048dcc3052b092b91de894c}{%
+           family={Vaught},
+           familyi={V\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eca9aeefdc8563b0e153fbedf08bc1a1}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={Jarrod},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{fullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{bibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorbibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authornamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorfullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{editorbibnamehash}{902f574d4ce718ebb81e782574d8177c}
+      \strng{editornamehash}{902f574d4ce718ebb81e782574d8177c}
+      \strng{editorfullhash}{902f574d4ce718ebb81e782574d8177c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This paper introduces NetworkX, a Python software package designed for the creation, manipulation, and study of complex network structures, utilizing a dictionary-of-dictionaries data structure and integrating with NumPy and SciPy libraries. In this project, it provides the core computational graph data structures and algorithmic foundation for constructing, analyzing, and processing molecular networks from LC-HRMS feature data[cite: 1, 2, 3].}
+      \field{booktitle}{Proceedings of the 7th Python in Science Conference (SciPy 2008)}
+      \field{title}{Exploring Network Structure, Dynamics, and Function using NetworkX}
+      \field{year}{2008}
+      \field{pages}{11\bibrangedash 15}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb http://conference.scipy.org/proceedings/SciPy2008/paper_2/
+      \endverb
+      \verb{url}
+      \verb http://conference.scipy.org/proceedings/SciPy2008/paper_2/
+      \endverb
+    \endentry
+    \entry{Herbert2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ae32f3fbde29199e1bb94254f06d63cb}{%
+           family={Herbert},
+           familyi={H\bibinitperiod},
+           given={B.\bibnamedelimi M.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ddc3f97f00b222f755c89425f66045a8}{%
+           family={Villa},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee7af7c8e4d39809e6f709406233835d}{%
+           family={Halsall},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b78b4645f65591120a87d0475191ed3d}
+      \strng{fullhash}{b78b4645f65591120a87d0475191ed3d}
+      \strng{bibnamehash}{b78b4645f65591120a87d0475191ed3d}
+      \strng{authorbibnamehash}{b78b4645f65591120a87d0475191ed3d}
+      \strng{authornamehash}{b78b4645f65591120a87d0475191ed3d}
+      \strng{authorfullhash}{b78b4645f65591120a87d0475191ed3d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article discusses the behavior and fate of semi-volatile organic compounds in snow, emphasizing the importance of understanding these interactions for assessing environmental contamination.}
+      \field{journaltitle}{Ecotoxicology and Environmental Safety}
+      \field{number}{1}
+      \field{title}{Chemical Interactions with Snow: Understanding the Behavior and Fate of Semi-Volatile Organic Compounds in Snow}
+      \field{volume}{63}
+      \field{year}{2006}
+      \field{pages}{3\bibrangedash 16}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ecoenv.2005.05.012
       \endverb
     \endentry
     \entry{Hupatz2025}{article}{}
@@ -205,6 +864,316 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/s00216-024-05471-x
+      \endverb
+    \endentry
+    \entry{Jacomy2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1d8d87da63f7c5df6ac60ebe226f1ce0}{%
+           family={Jacomy},
+           familyi={J\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7f594b34369fb80493669d02d5ce4cd6}{%
+           family={Venturini},
+           familyi={V\bibinitperiod},
+           given={Tommaso},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8c2f33265854ee844e14d715f00e7dd5}{%
+           family={Heymann},
+           familyi={H\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f9fab3924b8ea32748aeedb59e2b3b58}{%
+           family={Bastian},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bf45dc38e4080a267796c327e8be32d}
+      \strng{fullhash}{c1db0c16bc81b2bdbc0ed3b248e68c86}
+      \strng{bibnamehash}{6bf45dc38e4080a267796c327e8be32d}
+      \strng{authorbibnamehash}{6bf45dc38e4080a267796c327e8be32d}
+      \strng{authornamehash}{6bf45dc38e4080a267796c327e8be32d}
+      \strng{authorfullhash}{c1db0c16bc81b2bdbc0ed3b248e68c86}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This paper details the ForceAtlas2 continuous force-directed layout algorithm, which positions nodes based on network connectivity to reveal structural clusters and hubs. It provides a methodological reference for the graph rendering and visualization mechanics used to organize chemical families and unknown transformation products in the software interface.}
+      \field{journaltitle}{{PLOS ONE}}
+      \field{number}{6}
+      \field{title}{ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the {Gephi} Software}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{pages}{e98679}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0098679
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679
+      \endverb
+    \endentry
+    \entry{Kind2018}{article}{}
+      \name{author}{11}{}{%
+        {{hash=d249a2933d5892202606395642997406}{%
+           family={Kind},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=82e78752b22edbedc68c9a0e9cb63159}{%
+           family={Cajka},
+           familyi={C\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=db67a20d341926f69b95583555729a63}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c2d711ac214b3d50ccbc1bb776fa6559}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Zijuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0ab51530bb06c86709856f2825a7f6bb}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Sajjan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cf6940db39bf4839af0996f82dc1ae56}{%
+           family={Wohlgemuth},
+           familyi={W\bibinitperiod},
+           given={Gert},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5973de6585c96b9b0109cc2cad707191}{%
+           family={Barupal},
+           familyi={B\bibinitperiod},
+           given={Dinesh\bibnamedelima Kumar},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=119082f70d787443973886f00ca980dd}{%
+           family={Showalter},
+           familyi={S\bibinitperiod},
+           given={Megan\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=40bb96e15e3999a1ea249fcbac9be606}{%
+           family={Arita},
+           familyi={A\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e61fe5ec15e0f1341b85c8e6b6cee9f2}{%
+           family={Fiehn},
+           familyi={F\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0a81780c7c52509726822a3c5814fbc}
+      \strng{fullhash}{79ffb4e003f55dcf550536f3f93df0aa}
+      \strng{bibnamehash}{a0a81780c7c52509726822a3c5814fbc}
+      \strng{authorbibnamehash}{a0a81780c7c52509726822a3c5814fbc}
+      \strng{authornamehash}{a0a81780c7c52509726822a3c5814fbc}
+      \strng{authorfullhash}{79ffb4e003f55dcf550536f3f93df0aa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This review explains how small molecules are identified using high-resolution MS/MS techniques and spectral libraries. It highlights computational approaches and shared databases that assist in analyzing complex environmental and biological samples.}
+      \field{journaltitle}{Mass Spectrometry Reviews}
+      \field{number}{4}
+      \field{title}{Identification of Small Molecules Using Accurate Mass {MS/MS} Search}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{pages}{513\bibrangedash 532}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/mas.21535
+      \endverb
+      \verb{urlraw}
+      \verb https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mas.21535
+      \endverb
+      \verb{url}
+      \verb https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mas.21535
+      \endverb
+    \endentry
+    \entry{Ko2011}{article}{}
+      \name{author}{14}{}{%
+        {{hash=2ad11eb70f573872886ad99898b2f7d4}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Amy\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=98d1039e360c114877200876fb6ec1d9}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=21734a7d59f98d7d89a2143526e7bd7a}{%
+           family={Beckwith},
+           familyi={B\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=534deb78d3e4c85c835632ca2b1c2f19}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bcccf4fdc08b8656daeed6014ee9818e}{%
+           family={Burnett},
+           familyi={B\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+        {{hash=92e5385c41432644fcded54d78d51b7d}{%
+           family={Erwig},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=603552d942a25283b4210a719d0dfc38}{%
+           family={Scaffidi},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=dc6e15299405451208df9c8062cfaf3f}{%
+           family={Lawrance},
+           familyi={L\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=640ab2ee10ffde04d380ff4890e8b7b0}{%
+           family={Lieberman},
+           familyi={L\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+        {{hash=95f3f6e4fd44d355e252aebe61e8a77e}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod}}}%
+        {{hash=750a6e407875301166d5c7769ad31ba8}{%
+           family={Rosson},
+           familyi={R\bibinitperiod},
+           given={Mary\bibnamedelima Beth},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7cc129d17e090cbb4f857f945a508bf2}{%
+           family={Rothermel},
+           familyi={R\bibinitperiod},
+           given={Gregg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a71c8aa98b158fa0b3a629457cda1498}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=434707406e7af768a96b56aef08719f2}{%
+           family={Wiedenbeck},
+           familyi={W\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{07c87c9e1d6c6f6db94ac3ff3918973d}
+      \strng{fullhash}{1a87a62e9afd084ec23af9bf3e9c34fa}
+      \strng{bibnamehash}{07c87c9e1d6c6f6db94ac3ff3918973d}
+      \strng{authorbibnamehash}{07c87c9e1d6c6f6db94ac3ff3918973d}
+      \strng{authornamehash}{07c87c9e1d6c6f6db94ac3ff3918973d}
+      \strng{authorfullhash}{1a87a62e9afd084ec23af9bf3e9c34fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most programs today are written not by professional software developers, but by people with expertise in other domains working towards goals for which they need computational support. For example, a teacher might write a grading spreadsheet to save time grading, or an interaction designer might use an interface builder to test some user interface design ideas. Although these end-user programmers may not have the same goals as professional developers, they do face many of the same software engineering challenges, including understanding their requirements, as well as making decisions about design, reuse, integration, testing, and debugging. This article summarizes and classifies research on these activities, defining the area of End-User Software Engineering (EUSE) and related terminology. The article then discusses empirical research about end-user software engineering activities and the technologies designed to support them. The article also addresses several crosscutting issues in the design of EUSE tools, including the roles of risk, reward, and domain complexity, and self-efficacy in the design of EUSE tools and the potential of educating users about software engineering principles.}
+      \field{annotation}{This paper examines software engineering principles tailored to end-user developers and domain experts. It supports the project's philosophy of designing transparent, localized computational tools that empower domain scientists to execute complex data workflows without relying on black-box platforms.}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Comput. Surv.}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{The state of the art in end-user software engineering}
+      \field{volume}{43}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1145/1922649.1922658
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1922649.1922658
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1922649.1922658
+      \endverb
+      \keyw{End-user software engineering,end-user development,end-user programming,human-computer interaction,visual programming}
+    \endentry
+    \entry{Koelmel2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7b5b85c7528642dd90699c1b92e50b12}{%
+           family={Koelmel},
+           familyi={K\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ed4a6000f0b2a7bd61a7a5196c2eb941}{%
+           family={Kroeger},
+           familyi={K\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=799182aef4d90cd96083b5a12aee5fff}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fea23f16d3b796649acea08e831f49ff}{%
+           family={Ulmer\bibnamedelima Holland},
+           familyi={U\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Candice},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c45b0df28e46df8e803036d2ed46ef27}{%
+           family={Bowden},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=549da02165d920751cb1b55f6b8b6d69}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Rainey},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cb57e84f9634aaf34119282046de94b2}{%
+           family={Yost},
+           familyi={Y\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b2c1b6589f970ad26cc4aa2dff343ce1}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{24777b8a22fc1264a300bb3ba7515ad4}
+      \strng{fullhash}{9ef0fe1db905315072213c9617a83689}
+      \strng{bibnamehash}{24777b8a22fc1264a300bb3ba7515ad4}
+      \strng{authorbibnamehash}{24777b8a22fc1264a300bb3ba7515ad4}
+      \strng{authornamehash}{24777b8a22fc1264a300bb3ba7515ad4}
+      \strng{authorfullhash}{9ef0fe1db905315072213c9617a83689}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This paper presents a strategy for expanding mass spectrometry feature coverage using data-dependent acquisition combined with automated exclusion list generation to manage redundancy and enhance detection in complex analytical matrices. It underscores the value of automated data preprocessing and filtering pipelines, providing methodological context for streamlining complex LC-HRMS workflows and feature prioritization.}
+      \field{journaltitle}{Journal of The American Society for Mass Spectrometry}
+      \field{title}{Expanding Lipidome Coverage Using LC-MS/MS Data-Dependent Acquisition with Automated Exclusion List Generation}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s13361-017-1608-0
       \endverb
     \endentry
     \entry{Ma2025}{article}{}
@@ -275,17 +1244,17 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Emerging pollutants are becoming increasingly diverse, raising concerns about contamination in plateau river systems and the need for efficient assessment frameworks. In this study, non-targeted screening (NTS) was conducted at 17 sites along the Yalong River, identifying 158 waterborne pollutants including human drugs, veterinary drugs, antibiotics, pesticides, and others. An improved PBT (Persistence, Bioaccumulation, Toxicity) evaluation framework was developed by incorporating toxicity data from green algae, daphnia, and fish to enhance ecological relevance. The basin was divided into three land use regions-industrial-agricultural production area (IAPA), alpine canyon area (ACA), and alpine meadow area (AMA)-for spatial analysis. Human drugs were the dominant category (55.70 %) in both number and total peak area and exhibited the highest average PBT score (0.745). Non-metric multidimensional scaling (NMDS) and random forest modeling revealed significant differences in pollutant compositions across land use regions (p < 0.05), and a strong alignment between pollutant profiles and land use characteristics. These findings indicate that pollutant composition and spatial distribution were significantly influenced by human activities and resource utilization patterns. This study proposes a region-specific framework integrating NTS, improved PBT evaluation, and spatial analysis to support pollution management in high-altitude river basins.}
+      \field{abstract}{Emerging pollutants are becoming increasingly diverse, raising concerns about contamination in plateau river systems and the need for efficient assessment frameworks. In this study, non-targeted screening (NTS) was conducted at 17 sites along the Yalong River, identifying 158 waterborne pollutants including human drugs, veterinary drugs, antibiotics, pesticides, and others. An improved PBT (Persistence, Bioaccumulation, Toxicity) evaluation framework was developed by incorporating toxicity data from green algae, daphnia, and fish to enhance ecological relevance. The basin was divided into three land use regions-industrial-agricultural production area (IAPA), alpine canyon area (ACA), and alpine meadow area (AMA)-for spatial analysis. Human drugs were the dominant category (55.70\%) in both number and total peak area and exhibited the highest average PBT score (0.745). Non-metric multidimensional scaling (NMDS) and random forest modeling revealed significant differences in pollutant compositions across land use regions (\(p < 0.05\)), and a strong alignment between pollutant profiles and land use characteristics. These findings indicate that pollutant composition and spatial distribution were significantly influenced by human activities and resource utilization patterns. This study proposes a region-specific framework integrating NTS, improved PBT evaluation, and spatial analysis to support pollution management in high-altitude river basins.}
       \field{annotation}{This article provides valuable insights into the complex interactions between human activities and pollutant distribution in river basins. The use of advanced screening techniques and ecological assessments highlights the importance of tailored approaches for effective environmental management. The findings underscore the need for ongoing research in this area to address emerging contaminants and their impacts on aquatic ecosystems.}
       \field{issn}{0304-3894}
       \field{journaltitle}{Journal of Hazardous Materials}
-      \field{title}{Human activity driven spatial heterogeneity of pollutants in a highland river basin revealed by non-target screening and improved PBT evaluation: A case study from the Yalong River on the Qinghai-Tibet Plateau,China}
+      \field{title}{Human activity driven spatial heterogeneity of pollutants in a highland river basin revealed by non-target screening and improved PBT evaluation: A case study from the Yalong River on the Qinghai-Tibet Plateau, China}
       \field{volume}{496}
       \field{year}{2025}
       \field{pages}{139493}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jhazmat.2025.139493
+      \verb 10.1016/j.jhazmat.2025.139493
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0304389425024094
@@ -293,7 +1262,7 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0304389425024094
       \endverb
-      \keyw{Non-targeted screening,Improved PBT assessment,Highland river basin,Land use impact,Random forest–NMDS analysis}
+      \keyw{Non-targeted screening,Improved PBT assessment,Highland river basin,Land use impact,Random forest--NMDS analysis}
     \endentry
     \entry{Manz2023}{article}{}
       \name{author}{13}{}{%
@@ -389,6 +1358,659 @@
       \endverb
       \verb{url}
       \verb https://www.nature.com/articles/s41370-023-00574-6
+      \endverb
+    \endentry
+    \entry{Meyer2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=91c67896f848506dd46d99e44fe74e49}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=792105edd2da9042058c36921d66fea8}{%
+           family={Wania},
+           familyi={W\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \strng{fullhash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \strng{bibnamehash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \strng{authorbibnamehash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \strng{authornamehash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \strng{authorfullhash}{1b8db9d4f5dbcbe0fcb2c7edaabe9b09}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The release of organic contaminants from melting snow poses risks to aquatic and terrestrial organisms and to humans who rely on drinking water and food production from regions that are seasonally snow-covered. Measured and model-predicted spring peak concentrations in waters receiving snowmelt motivate a thorough investigation of organic contaminant behaviour during melting. On the basis of the current understanding of snow metamorphosis, snowmelt hydrology and chemical partitioning in snow, this critical review aims to provide a qualitative picture of the processes involved in the release of organic contaminants from a melting snowpack. The elution sequence of organic substances during snowmelt is strongly dependent on their environmental partitioning properties and the physical properties of the snowpack. Water-soluble organic contaminants can be discharged in greatly elevated concentrations at an early stage of melting, while the bulk of the hydrophobic chemicals attached to particles is often released at the end of the melt period. Melting of a highly metamorphosed and deep snowpack promotes such shock load releases, whereas a shallow snow cover over a relatively warm ground experiencing irregular melting over the winter season is unlikely to generate notable peak releases of organic substances. Meltwater runoff over frozen ground directly transfers contaminant shock loads into receiving water bodies, while permeable soils buffer and dilute the contaminants. A more quantitative understanding of the behaviour of organic contaminants in varying snowmelt scenarios will depend on controlled laboratory studies combined with field investigations. Reliable numerical process descriptions will need to be developed to integrate water quality and contaminant fate models.}
+      \field{annotation}{This article reviews the behavior of organic contaminants during snowmelt, emphasizing the need for further research to understand their release mechanisms and impacts on water quality.}
+      \field{issn}{0043-1354}
+      \field{journaltitle}{Water Research}
+      \field{number}{8}
+      \field{title}{Organic contaminant amplification during snowmelt}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{pages}{1847\bibrangedash 1865}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.watres.2007.12.016
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0043135407007646
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0043135407007646
+      \endverb
+      \keyw{Snow,Organic contaminants,Snowmelt,Snow hydrology}
+    \endentry
+    \entry{Newman2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4bf3b98e94373b42e6f6e6dfddaf4daa}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi E.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \strng{fullhash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \strng{bibnamehash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \strng{authorbibnamehash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \strng{authornamehash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \strng{authorfullhash}{4bf3b98e94373b42e6f6e6dfddaf4daa}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{A seminal and highly influential review paper in network science. It provides a comprehensive synthesis of empirical network properties across sociology, biology, and technology (such as small-world topology, scale-free degree distributions, and clustering), while detailing the mathematical models, algorithms, and structural metrics used to analyze them.}
+      \field{journaltitle}{SIAM Review}
+      \field{number}{2}
+      \field{title}{The Structure and Function of Complex Networks}
+      \field{volume}{45}
+      \field{year}{2003}
+      \field{pages}{167\bibrangedash 256}
+      \range{pages}{90}
+      \verb{doi}
+      \verb 10.1137/S003614450342480
+      \endverb
+    \endentry
+    \entry{NinoSuastegui2025}{article}{}
+      \name{author}{6}{}{%
+        {{hash=50925a9b0e0652d70d692ca1fa9779df}{%
+           family={Nino-Suastegui},
+           familyi={N\bibinithyphendelim S\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=67513447be2af9d4b9a001ada7a1517d}{%
+           family={Painter},
+           familyi={P\bibinitperiod},
+           given={Eve},
+           giveni={E\bibinitperiod}}}%
+        {{hash=165dcd8484f9de0150d64ceaf8d3ad57}{%
+           family={Sprankle},
+           familyi={S\bibinitperiod},
+           given={Jameson\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=7c36072b06d13669b591379e449fc103}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Jillian\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6e9e2a0e11fae2a257faf479dd5054fa}{%
+           family={Faust},
+           familyi={F\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1b534e00d79a80cd21f85a1c06660b41}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Rebekah},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f558bd311e1a5b5b33663ca4e3b37f0}
+      \strng{fullhash}{df37f0e83b74ea5a46ba95aee03c0f15}
+      \strng{bibnamehash}{2f558bd311e1a5b5b33663ca4e3b37f0}
+      \strng{authorbibnamehash}{2f558bd311e1a5b5b33663ca4e3b37f0}
+      \strng{authornamehash}{2f558bd311e1a5b5b33663ca4e3b37f0}
+      \strng{authorfullhash}{df37f0e83b74ea5a46ba95aee03c0f15}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study uses LC-HRMS and in silico analysis to identify organic contaminants deposited in snowfall across the United States, demonstrating the power of computational tools for suspect screening and compound identification.}
+      \field{journaltitle}{Environmental Research}
+      \field{title}{Non-targeted Analysis and Suspect Screening of Organic Contaminants in Temperate Snowfall Using Liquid Chromatography High-Resolution Mass Spectrometry}
+      \field{volume}{266}
+      \field{year}{2025}
+      \field{pages}{120494}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.envres.2024.120494
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0013935124024010
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0013935124024010
+      \endverb
+    \endentry
+    \entry{Nothias2020}{article}{}
+      \name{author}{62}{}{%
+        {{hash=5aef936517b0a5b56151a0ed3e087ec8}{%
+           family={Nothias},
+           familyi={N\bibinitperiod},
+           given={Louis-Félix},
+           giveni={L\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=898965324cf09bc0efc7bf82f1d874f0}{%
+           family={Petras},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9602c41898ab4327f8e874ecd625e97e}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c460e1dc63a8ce60dec74c70476470a0}{%
+           family={Dührkop},
+           familyi={D\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9a6ae0c0aabd208ea8bf43ea82f01ef4}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=26f630ee97173f0d4e48fb656bda2cdd}{%
+           family={Sarvepalli},
+           familyi={S\bibinitperiod},
+           given={Abinesh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ff4ce56205cd93c618e45a904bf03f3}{%
+           family={Protsyuk},
+           familyi={P\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=6beadaa767ef699eebfbe420545d5e7e}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Madeleine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3aa11cf7328c528fc992948c555676b5}{%
+           family={Fleischauer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=85720341cb1b2e9384e6498d8821ce36}{%
+           family={Aicheler},
+           familyi={A\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=87bfa87346b26d5e647fc1b50b684851}{%
+           family={Aksenov},
+           familyi={A\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=387f115a3bda372269018e3bcf6211a0}{%
+           family={Alka},
+           familyi={A\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a41a71834a73e21528dde6b91c9952ed}{%
+           family={Allard},
+           familyi={A\bibinitperiod},
+           given={Pierre-Marie},
+           giveni={P\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=60fe01280eb422bad9f085a4ccde3267}{%
+           family={Barsch},
+           familyi={B\bibinitperiod},
+           given={Aiko},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bdd59c97be3818ba564b12382f25ab1b}{%
+           family={Cachet},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=5b00adb48c5ee973e65a3ccc472c7cb6}{%
+           family={Caraballo-Rodriguez},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Andres\bibnamedelima Mauricio},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2c29bda4dfe204e001d3cdd71809e06b}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Ricardo\bibnamedelimb R.\bibnamedelimi Da},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=eaa6b8cc3efbc866afac597e235d60cf}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={Tam},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ce4812f45e7607177bf7dd477871f724}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=440ca28e4a7c88b65c8da40b0a846c42}{%
+           family={Gauglitz},
+           familyi={G\bibinitperiod},
+           given={Julia\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d70be0edaa8865614a658f1060e30fc1}{%
+           family={Gurevich},
+           familyi={G\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc8f057bc295fd36396d30c2e9d030d1}{%
+           family={Isaac},
+           familyi={I\bibinitperiod},
+           given={Giorgis},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6d198c78a85132f9e56fae7fcaa0b1e0}{%
+           family={Jarmusch},
+           familyi={J\bibinitperiod},
+           given={Alan\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=020e36016570f4236b8eef8118bc3cf5}{%
+           family={Kameník},
+           familyi={K\bibinitperiod},
+           given={Zdeněk},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9addf680720ca336b62944417dccdd90}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Kyo\bibnamedelima Bin},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e30222dd808b86a1d1d7f4de70d610b7}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a05f02c541985e936d298639cac13c79}{%
+           family={Koester},
+           familyi={K\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d77c9b586c77ebc51e9e169484f3c72b}{%
+           family={Korf},
+           familyi={K\bibinitperiod},
+           given={Ansgar},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a2457b75f0a3645148964e013823abb9}{%
+           family={Gouellec},
+           familyi={G\bibinitperiod},
+           given={Audrey\bibnamedelima Le},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fe2d6c8bc24023bd24eb5b5d1ddabfca}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=489dbef1ef7bb150bc346f5a4b38be97}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={Martin\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=09732c21c584086c5b81df3cb78d16ee}{%
+           family={McCall},
+           familyi={M\bibinitperiod},
+           given={Laura-Isobel},
+           giveni={L\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=72391463929e491aced43e700043ab4f}{%
+           family={McSayles},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9bce093c4de02471abd124884afe0c0a}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Sven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5d165baa2d7531a43e10c32569e40e2d}{%
+           family={Mohimani},
+           familyi={M\bibinitperiod},
+           given={Hosein},
+           giveni={H\bibinitperiod}}}%
+        {{hash=63258ed82c949833d8af1734ca00af9e}{%
+           family={Morsy},
+           familyi={M\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3312664b9cba9ad7892d7ceb74b516ad}{%
+           family={Moyne},
+           familyi={M\bibinitperiod},
+           given={Oriane},
+           giveni={O\bibinitperiod}}}%
+        {{hash=430c2a8950013fc7088fcff1903e1c8a}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3808ea3c38ebedfb847008980802567}{%
+           family={Neuweger},
+           familyi={N\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2cfa37f684a3447715698a6877895de8}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Ngoc\bibnamedelima Hung},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d75840efc238b630fce69a430f4a57cb}{%
+           family={Nothias-Esposito},
+           familyi={N\bibinithyphendelim E\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4d6c484c26138432d13b246bb027732c}{%
+           family={Paolini},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9ada41c0b008b76909f2d474bb51fe6b}{%
+           family={Phelan},
+           familyi={P\bibinitperiod},
+           given={Vanessa\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=bdd78d69488c1fc133657d5595ae7703}{%
+           family={Pluskal},
+           familyi={P\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+        {{hash=309fb0efd420870c7a1548560596b55a}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2f6fd6b38926301817039137e1b1ff2c}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=66b72735a714e1b5a6408e29e3b5da9a}{%
+           family={Shrestha},
+           familyi={S\bibinitperiod},
+           given={Bindesh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4f9a88d80e7570169cfc5878258d3433}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Anupriya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ce8575d5ac7da5ba91fede658a33d8a}{%
+           family={Hooft},
+           familyi={H\bibinitperiod},
+           given={Justin\bibnamedelimb J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=8ba84342c91757242152b739d0c97c51}{%
+           family={Vargas},
+           familyi={V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=36ecbc7265ec63eff2d9b695dbc7a88e}{%
+           family={Weldon},
+           familyi={W\bibinitperiod},
+           given={Kelly\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7335621fe0fbdd6cd9a3dfc763defd43}{%
+           family={Witting},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0c8c6e4a05566cd417069457c56000f3}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Heejung},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fcdb4c7704baa79893b29d652aecc77f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2461821a7a7843b95bad40dbe6434abe}{%
+           family={Zubeil},
+           familyi={Z\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=569089e0d5a019d6333ea5f294769662}{%
+           family={Kohlbacher},
+           familyi={K\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7b293fa7e7921b48e54f7e763f6e0e0c}{%
+           family={Böcker},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2aa26893bfbd8fb433624e773fd1a1a2}{%
+           family={Alexandrov},
+           familyi={A\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f12a5c95065556e4d2051170a2fc977e}{%
+           family={Bandeira},
+           familyi={B\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a4510c68ec1b602f0b9c2c8489ce3ae8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Mingxun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c87f8cdb434cfe0caa0fa62965f528b8}{%
+           family={Dorrestein},
+           familyi={D\bibinitperiod},
+           given={Pieter\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9e6c8cd2a89d06371b9cf967d8debf48}
+      \strng{fullhash}{7a3ce555e04e9ba65f346593f0ccb50b}
+      \strng{bibnamehash}{9e6c8cd2a89d06371b9cf967d8debf48}
+      \strng{authorbibnamehash}{9e6c8cd2a89d06371b9cf967d8debf48}
+      \strng{authornamehash}{9e6c8cd2a89d06371b9cf967d8debf48}
+      \strng{authorfullhash}{7a3ce555e04e9ba65f346593f0ccb50b}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Introduces feature-based molecular networking (FBMN) within the Global Natural Products Social Molecular Networking (GNPS) framework. This method integrates untargeted LC-MS/MS data processing tools with molecular networking to resolve isomers, quantify structural variants, and account for ion mobility spectrometry data, significantly expanding the scope of mass spectrometry-based metabolomics and natural product discovery.}
+      \field{journaltitle}{Nature Methods}
+      \field{number}{9}
+      \field{title}{Feature-based molecular networking in the {GNPS} analysis environment}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{pages}{905\bibrangedash 908}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41592-020-0933-6
+      \endverb
+    \endentry
+    \entry{Olivon2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5988f83270d2ee9d8c436472bbecd8de}{%
+           family={Olivon},
+           familyi={O\bibinitperiod},
+           given={Florent},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8da2d9abe8e0d9116a76cae1937ddc22}{%
+           family={Grelier},
+           familyi={G\bibinitperiod},
+           given={Gwendal},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dc98c596d856607cb683707aa4f9c506}{%
+           family={Roussi},
+           familyi={R\bibinitperiod},
+           given={Fanny},
+           giveni={F\bibinitperiod}}}%
+        {{hash=52b8d69e6eebdde16fdf9ccf3fd04105}{%
+           family={Litaudon},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a7aa25f49d181f4985edc37e86d31b05}{%
+           family={Touboul},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f83937e3a0836ba1eccbb190e03010e0}
+      \strng{fullhash}{0f5ef455c69b4402db508e867c168d19}
+      \strng{bibnamehash}{f83937e3a0836ba1eccbb190e03010e0}
+      \strng{authorbibnamehash}{f83937e3a0836ba1eccbb190e03010e0}
+      \strng{authornamehash}{f83937e3a0836ba1eccbb190e03010e0}
+      \strng{authorfullhash}{0f5ef455c69b4402db508e867c168d19}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This study improves molecular networking workflows through data preprocessing using MZmine 2, demonstrating how careful data processing can improve clustering and compound annotation accuracy.}
+      \field{journaltitle}{Analytical Chemistry}
+      \field{number}{15}
+      \field{title}{{MZmine 2} Data Preprocessing to Enhance Molecular Networking Reliability}
+      \field{volume}{89}
+      \field{year}{2017}
+      \field{pages}{7836\bibrangedash 7840}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1021/acs.analchem.7b01563
+      \endverb
+    \endentry
+    \entry{Pienta2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=7a8c87fcb17504bc3b7623ab0cb23165}{%
+           family={Pienta},
+           familyi={P\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d47c995e4339a708a2be7e7d6817697b}{%
+           family={Tamersoy},
+           familyi={T\bibinitperiod},
+           given={Acar},
+           giveni={A\bibinitperiod}}}%
+        {{hash=accfc7f5c581f746112f5fd641490dda}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Hanghang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a8bb1f5c62f1c6c334068bd1b0e9e5a2}{%
+           family={Endert},
+           familyi={E\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c2ec03262881d2daa008febc96a0466f}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={Duen\bibnamedelimb Horng\bibnamedelima (Polo)},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta, Georgia, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{444bc338993d521772b9a2976a4df48e}
+      \strng{fullhash}{7b7d7ee2f359f52ff63353e9fa393a12}
+      \strng{bibnamehash}{444bc338993d521772b9a2976a4df48e}
+      \strng{authorbibnamehash}{444bc338993d521772b9a2976a4df48e}
+      \strng{authornamehash}{444bc338993d521772b9a2976a4df48e}
+      \strng{authorfullhash}{7b7d7ee2f359f52ff63353e9fa393a12}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given the explosive growth of modern graph data, new methods are needed that allow for the querying of complex graph structures without the need of a complicated querying languages; in short, interactive graph querying is desirable. We describe our work towards achieving our overall research goal of designing and developing an interactive querying system for large network data. We focus on three critical aspects: scalable data mining algorithms, graph visualization, and interaction design. We have already completed an approximate subgraph matching system called MAGE in our previous work that fulfills the algorithmic foundation allowing us to query a graph with hundreds of millions of edges. Our preliminary work on visual graph querying, Graphite, was the first step in the process to making an interactive graph querying system. We are in the process of designing the graph visualization and robust interaction needed to make truly interactive graph querying a reality.}
+      \field{annotation}{This paper explores scalable graph visualization, data mining, and interactive design principles for navigating complex network structures. It directly supports the user interface and interaction design goals of the custom software, informing how chemists can interactively query, filter, and inspect node metadata without needing rigid query languages.}
+      \field{booktitle}{Companion Proceedings of the 20th International Conference on Intelligent User Interfaces}
+      \field{isbn}{9781450333085}
+      \field{series}{IUI '15 Companion}
+      \field{title}{Interactive Querying over Large Network Data: Scalability, Visualization, and Interaction Design}
+      \field{year}{2015}
+      \field{pages}{61\bibrangedash 64}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/2732158.2732192
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2732158.2732192
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2732158.2732192
+      \endverb
+      \keyw{graph querying and mining,interaction design,visualization}
+    \endentry
+    \entry{Schmid2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=9602c41898ab4327f8e874ecd625e97e}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=898965324cf09bc0efc7bf82f1d874f0}{%
+           family={Petras},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=385d8003d0aad056a0a687898fc25b3e}{%
+           family={Nothias},
+           familyi={N\bibinitperiod},
+           given={Louis-Felix},
+           giveni={L\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=a4510c68ec1b602f0b9c2c8489ce3ae8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Mingxun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4c28fbbe6a7dec2680df43d987f38a82}{%
+           family={Aron},
+           familyi={A\bibinitperiod},
+           given={Allegra\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=1625272964c8927ba608fbe4d032a47c}{%
+           family={Jagels},
+           familyi={J\bibinitperiod},
+           given={Annika},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3520533204816dd10a7f4320ccf3e55a}
+      \strng{fullhash}{792e3afa853902292a93ecdb35d2d22b}
+      \strng{bibnamehash}{3520533204816dd10a7f4320ccf3e55a}
+      \strng{authorbibnamehash}{3520533204816dd10a7f4320ccf3e55a}
+      \strng{authornamehash}{3520533204816dd10a7f4320ccf3e55a}
+      \strng{authorfullhash}{792e3afa853902292a93ecdb35d2d22b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article presents Ion Identity Molecular Networking, a computational framework that links related ion species within mass spectrometry datasets to improve metabolite annotation and clustering.}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Ion Identity Molecular Networking for Mass Spectrometry-Based Metabolomics in the {GNPS} Environment}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{3832}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-021-23953-9
       \endverb
     \endentry
     \entry{Schulze2020}{article}{}
@@ -545,6 +2167,233 @@
       \verb https://doi.org/10.1021/es5002105
       \endverb
     \endentry
+    \entry{Tsugawa2020}{article}{}
+      \name{author}{12}{}{%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=be9192f1053311140c280b6dc0a2f978}{%
+           family={Ikeda},
+           familyi={I\bibinitperiod},
+           given={Kazutaka},
+           giveni={K\bibinitperiod}}}%
+        {{hash=884bc0f9fa49fc5b473baa2db111cd58}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Mayumi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd228a81bc971b7d8229a52fe7e3d3fa}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={Yukihiro},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=39588267261d6f0a7e23ef88927657d6}{%
+           family={Kawashima},
+           familyi={K\bibinitperiod},
+           given={Nao},
+           giveni={N\bibinitperiod}}}%
+        {{hash=911177c14817906f21c83df6a6902138}{%
+           family={Mano},
+           familyi={M\bibinitperiod},
+           given={Takaaki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1f22d54761b6e068ad2d915444f65172}{%
+           family={Sugimoto},
+           familyi={S\bibinitperiod},
+           given={Tomomi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0b18a50a4b1636462cce4897600a228a}{%
+           family={Kita},
+           familyi={K\bibinitperiod},
+           given={Sadayuki},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6bae77df2f0cb2a4b5d27e3a23c34d06}{%
+           family={Tomita},
+           familyi={T\bibinitperiod},
+           given={Masaru},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0ff5bc676b77ecf98a6d6944e7ee4a85}{%
+           family={Nishioka},
+           familyi={N\bibinitperiod},
+           given={Takaaki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0bbe09a0eb0b20e90e02999168465bd3}{%
+           family={Arita},
+           familyi={A\bibinitperiod},
+           given={Yasumasa},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=40bb96e15e3999a1ea249fcbac9be606}{%
+           family={Arita},
+           familyi={A\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{fullhash}{db0af8c0a18af8059bb84a0e35a3ca3f}
+      \strng{bibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorbibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authornamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorfullhash}{db0af8c0a18af8059bb84a0e35a3ca3f}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Introduces the MS-DIAL 4 software framework featuring a comprehensive lipidome atlas and in-silico tandem mass spectral libraries. It establishes universal data-processing tools for untargeted lipidomics, enabling robust annotation and structural characterization across diverse mass spectrometry platforms.}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{number}{10}
+      \field{title}{A lipidome atlas in {MS-DIAL} 4}
+      \field{volume}{38}
+      \field{year}{2020}
+      \field{pages}{1159\bibrangedash 1163}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41587-020-0531-2
+      \endverb
+    \endentry
+    \entry{Tsugawa2018}{article}{}
+      \name{author}{8}{}{%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8373e18956ef449d0dece984c30ece1b}{%
+           family={Kessner},
+           familyi={K\bibinitperiod},
+           given={Rik},
+           giveni={R\bibinitperiod}}}%
+        {{hash=75b1e78b4158967dd7401235cb4086d9}{%
+           family={Fukushima},
+           familyi={F\bibinitperiod},
+           given={Atsushi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e3db245ed3a3f876da0fb4912be9cb6}{%
+           family={Saito},
+           familyi={S\bibinitperiod},
+           given={Yukihiro},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c341889cd580f491de48f1db150925f3}{%
+           family={Suwa},
+           familyi={S\bibinitperiod},
+           given={Yoshihiro},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=40bb96e15e3999a1ea249fcbac9be606}{%
+           family={Arita},
+           familyi={A\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e61fe5ec15e0f1341b85c8e6b6cee9f2}{%
+           family={Fiehn},
+           familyi={F\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a4abab55e05b2c372fb5edf55377f937}{%
+           family={Arai},
+           familyi={A\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{fullhash}{64fae2faa7da1715809943f0c9caf73a}
+      \strng{bibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorbibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authornamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorfullhash}{64fae2faa7da1715809943f0c9caf73a}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Presents computational workflows and cheminformatics tools that integrate public metabolome databases with tandem mass spectrometry (MS/MS) data. The approach enhances compound identification confidence in untargeted metabolomics by combining spectral matching, in-silico fragmentation, and structural database searches.}
+      \field{journaltitle}{Nature Methods}
+      \field{number}{1}
+      \field{title}{Identifying metabolites by integrating metabolome databases with mass spectrometry cheminformatics}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{53\bibrangedash 56}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nmeth.4512
+      \endverb
+    \endentry
+    \entry{Tsugawa2015}{article}{}
+      \name{author}{9}{}{%
+        {{hash=a306968e38d3a21ef08ae175f64b3de9}{%
+           family={Tsugawa},
+           familyi={T\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=82e78752b22edbedc68c9a0e9cb63159}{%
+           family={Cajka},
+           familyi={C\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d249a2933d5892202606395642997406}{%
+           family={Kind},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=db67a20d341926f69b95583555729a63}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f4fb4f90fc1270089e4e6561a5378b01}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=be9192f1053311140c280b6dc0a2f978}{%
+           family={Ikeda},
+           familyi={I\bibinitperiod},
+           given={Kazutaka},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4ce00ca71533b027d8355c417c46df12}{%
+           family={Kanazawa},
+           familyi={K\bibinitperiod},
+           given={Mitsuhiro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ea6d2b1b1d90acf477145cf3ae1a167}{%
+           family={VanderGheynst},
+           familyi={V\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40bb96e15e3999a1ea249fcbac9be606}{%
+           family={Arita},
+           familyi={A\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{fullhash}{09f621531cbcd15a74a1ca01628becf1}
+      \strng{bibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorbibnamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authornamehash}{580ec3276f37ae036d05f7fa9c435c3e}
+      \strng{authorfullhash}{09f621531cbcd15a74a1ca01628becf1}
+      \field{extraname}{3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{MS-DIAL is a software tool designed for data-independent acquisition (DIA) mass spectrometry, enabling comprehensive analysis of complex metabolomes by deconvoluting overlapping MS/MS spectra.}
+      \field{journaltitle}{Nature methods}
+      \field{month}{05}
+      \field{title}{MS-DIAL: Data-independent MS/MS deconvolution for comprehensive metabolome analysis}
+      \field{volume}{12}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1038/nmeth.3393
+      \endverb
+    \endentry
     \entry{Wang2016}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -581,6 +2430,7 @@
       \strng{authorbibnamehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
       \strng{authornamehash}{9e6afcabbf2a7ae7e6e06f91861f493e}
       \strng{authorfullhash}{f8442035b6a23997b4956771412fc7d0}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -595,6 +2445,107 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1038/nbt.3597
+      \endverb
+    \endentry
+    \entry{WangCong2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cf04e08983a47de7168f859ce983fb30}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoping},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fe9e25495de4b8ff061134d39c51f762}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chuanfei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=15d52da7d9a90b8bed07fdb3011dfc0a}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Tingting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4c7f229c002b9aa38446c560fc1c78d5}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ae16e5401788f1a36c6b2d615eba5c9c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Jianjie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e7d4294aad28a62dc6993f961d40fdd9}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Zhiyuan},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3cd9ac7f5ca0b3ae774d03d8ff0f151}
+      \strng{fullhash}{fe4c25443e64b91e47b8593dd349141f}
+      \strng{bibnamehash}{e3cd9ac7f5ca0b3ae774d03d8ff0f151}
+      \strng{authorbibnamehash}{e3cd9ac7f5ca0b3ae774d03d8ff0f151}
+      \strng{authornamehash}{e3cd9ac7f5ca0b3ae774d03d8ff0f151}
+      \strng{authorfullhash}{fe4c25443e64b91e47b8593dd349141f}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Due to their low temperatures, the Arctic, Antarctic and Tibetan Plateau are known as the three polar regions of the Earth. As the most remote regions of the globe, the occurrence of persistent organic pollutants (POPs) in these polar regions arouses global concern. In this paper, we review the literatures on POPs involving these three polar regions. Overall, concentrations of POPs in the environment (air, water, soil and biota) have been extensively reported, with higher levels of dichlorodiphenyltrichloroethane (DDT) and hexachlorocyclohexane (HCH) detected on the Tibetan Plateau. The spatial distribution of POPs in air, water and soil in the three polar regions broadly reflects their distances away from source regions. Based on long-term data, decreasing trends have been observed for most “legacy POPs”. Observations of transport processes of POPs among multiple media have also been carried out, including air–water gas exchange, air–soil gas exchange, emissions from melting glaciers, bioaccumulations along food chains, and exposure risks. The impact of climate change on these processes possibly enhances the re-emission processes of POPs out of water, soil and glaciers, and reduces the bioaccumulation of POPs in food chains. Global POPs transport model have shown the Arctic receives a relatively small fraction of POPs, but that climate change will likely increase the total mass of all compounds in this polar region. Considering the impact of climate change on POPs is still unclear, long-term monitoring data and global/regional models are required, especially in the Antarctic and on the Tibetan Plateau, and the fate of POPs in all three polar regions needs to be comprehensively studied and compared to yield a better understanding of the mechanisms involved in the global cycling of POPs.}
+      \field{annotation}{This review highlights the need for continued monitoring and research on POPs in polar regions, particularly in the context of climate change and its impact on contaminant transport and fate.}
+      \field{issn}{0269-7491}
+      \field{journaltitle}{Environmental Pollution}
+      \field{title}{Persistent organic pollutants in the polar regions and the Tibetan Plateau: A review of current knowledge and future prospects}
+      \field{volume}{248}
+      \field{year}{2019}
+      \field{pages}{191\bibrangedash 208}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.envpol.2019.01.093
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749118343719
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749118343719
+      \endverb
+      \keyw{Persistent organic pollutants (POPs),Polar regions,Spatiotemporal distribution,Bioconcentration,Climate change}
+    \endentry
+    \entry{Wania1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=792105edd2da9042058c36921d66fea8}{%
+           family={Wania},
+           familyi={W\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=30b68beb010af59a243ef16b3689d80f}{%
+           family={Mackay},
+           familyi={M\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{da17718f025412a789d13913591b2cea}
+      \strng{fullhash}{da17718f025412a789d13913591b2cea}
+      \strng{bibnamehash}{da17718f025412a789d13913591b2cea}
+      \strng{authorbibnamehash}{da17718f025412a789d13913591b2cea}
+      \strng{authornamehash}{da17718f025412a789d13913591b2cea}
+      \strng{authorfullhash}{da17718f025412a789d13913591b2cea}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article discusses the distribution and fate of persistent organic pollutants (POPs) in the environment, emphasizing the need for effective tracking and management strategies.}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{month}{8}
+      \field{note}{PMID: 21649427}
+      \field{number}{9}
+      \field{title}{Peer Reviewed: Tracking the Distribution of Persistent Organic Pollutants}
+      \field{volume}{30}
+      \field{year}{1996}
+      \field{pages}{390A\bibrangedash 396A}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1021/es962399q
       \endverb
     \endentry
     \entry{Wilkinson2022}{article}{}
@@ -1269,6 +3220,67 @@
       \verb https://www.pnas.org/doi/abs/10.1073/pnas.2113947119
       \endverb
     \endentry
+    \entry{Wilson2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fda30198609a1ab29a82b93d4e8f347b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0f88b724c9f070dbceda00a5027d25bb}{%
+           family={Bryan},
+           familyi={B\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a79fa4e0923b252a711a37310ed57253}{%
+           family={Cranston},
+           familyi={C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=43698c36b205bdd65e89df3e8a106621}{%
+           family={Kitzes},
+           familyi={K\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd85e07eb8018cd89be388380c4df3cf}{%
+           family={Nederbragt},
+           familyi={N\bibinitperiod},
+           given={Lex},
+           giveni={L\bibinitperiod}}}%
+        {{hash=920e9ef87c538906e1fdf4450d18c319}{%
+           family={Teal},
+           familyi={T\bibinitperiod},
+           given={Tracy\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{fullhash}{dab138b482fe11ec8f4505195cc57670}
+      \strng{bibnamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authorbibnamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authornamehash}{4996f01033f1e72efe036963c2f02dac}
+      \strng{authorfullhash}{dab138b482fe11ec8f4505195cc57670}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article outlines practical software engineering guidelines for data management, version control, and code organization tailored to computational research. It supports the project's core philosophy of developing transparent, reproducible, and sustainable localized software workflows designed specifically for domain experts.}
+      \field{journaltitle}{{PLOS Computational Biology}}
+      \field{number}{6}
+      \field{title}{Good Enough Practices in Scientific Computing}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{e1005510}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1005510
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+      \endverb
+    \endentry
     \entry{Xu2011}{article}{}
       \name{author}{6}{}{%
         {{hash=2f356fb49f8330b7171686cfe9ebb0f7}{%
@@ -1321,6 +3333,92 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1039/c1em10470e
+      \endverb
+    \endentry
+    \entry{Zahn2024}{article}{}
+      \name{author}{11}{}{%
+        {{hash=4fac73a9aaac68d76ccf94ecdcca8919}{%
+           family={Zahn},
+           familyi={Z\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1e1cb7898b4bcec65a2df04d8ffbb887}{%
+           family={Arp},
+           familyi={A\bibinitperiod},
+           given={Hans\bibnamedelimb Peter\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bc1e51811458d660d00f99bfbadde009}{%
+           family={Fenner},
+           familyi={F\bibinitperiod},
+           given={Kathrin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4b18bba6c7575e19394abd4801272f65}{%
+           family={Georgi},
+           familyi={G\bibinitperiod},
+           given={Anett},
+           giveni={A\bibinitperiod}}}%
+        {{hash=23299e8f58f289a6a11758c5ba7efc83}{%
+           family={Hafner},
+           familyi={H\bibinitperiod},
+           given={Jasmin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=292d5e02e6bfcbcba650ae6c4a222a08}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Sarah\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=329dc2dcf5e0c1f7c14a16c4f5005590}{%
+           family={Hollender},
+           familyi={H\bibinitperiod},
+           given={Juliane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ea3190422944ec9a9f412aa44056c997}{%
+           family={Letzel},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=42df89dbe4a4b73eb793b6ba0d83cbdc}{%
+           family={Schymanski},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6e6b2f370ed695ba17f0bb2beb8264f5}{%
+           family={Sigmund},
+           familyi={S\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5e1b2fcd9451b53bcf419ca42da20ab2}{%
+           family={Reemtsma},
+           familyi={R\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b1f70f23b353cc615b4afff008e0f2d}
+      \strng{fullhash}{8319cd7aee6bdf224e5229cd6bdc4cad}
+      \strng{bibnamehash}{8b1f70f23b353cc615b4afff008e0f2d}
+      \strng{authorbibnamehash}{8b1f70f23b353cc615b4afff008e0f2d}
+      \strng{authornamehash}{8b1f70f23b353cc615b4afff008e0f2d}
+      \strng{authorfullhash}{8319cd7aee6bdf224e5229cd6bdc4cad}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This article discusses the implications of transformation products in chemical management, emphasizing the need for updated regulatory frameworks to address these compounds effectively.}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{number}{18}
+      \field{title}{Should Transformation Products Change the Way We Manage Chemicals?}
+      \field{volume}{58}
+      \field{year}{2024}
+      \field{pages}{7710\bibrangedash 7718}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/acs.est.4c00125
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.est.4c00125
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.est.4c00125
       \endverb
     \endentry
   \enddatalist

@@ -1,22 +1,23 @@
 # Fdb version 4
-["biber main"] 1792592995.67515 "main.bcf" "main.bbl" "main" 1792592999.98309 0
-  "main.bcf" 1792592740 115812 ed85109c413671434b4f9631148cb952 "pdflatex"
-  "references.bib" 1792592992 76564 db040cab57c1509d162d893d0a208406 ""
+["biber main"] 1794456503.9188 "main.bcf" "main.bbl" "main" 1794456523.36487 0
+  "main.bcf" 1794456522 117815 d9035b752bfe27ed63a1b62ad34e01f6 "pdflatex"
+  "references.bib" 1794456484 76554 a8037504d3b7df1f107466a2a362d308 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1792522029.91461 "main.idx" "main.ind" "main" 1792592999.98263 0
-  "main.idx" 1792592732 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1794456485.18539 "main.idx" "main.ind" "main" 1794456523.36416 0
+  "main.idx" 1794456516 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1792592730.08664 "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" "main.pdf" "main" 1792592999.98359 0
+["pdflatex"] 1794456515.51045 "c:/Users/raely/SeniorISRepo/temp-is-template/main.tex" "main.pdf" "main" 1794456523.36583 0
   "C:/Users/raely/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792020523 83282 621ebaed9bd86f6f3d021276677be3b2 ""
   "C:/Users/raely/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756409359 24225046 9d1ce1fb2fbe9d55c578e806ac1adf80 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
+  "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -57,7 +58,9 @@
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb" 1256929440 121021 836464b5fe0c782d94085eb083550ccc ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256929440 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
+  "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256929440 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256929440 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256929440 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256929440 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256929440 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
@@ -260,7 +263,7 @@
   "chapters/chapter2.tex" 1791926427 2179 510cc36043d3f76fabbedfcf07d2efd6 ""
   "chapters/chapter3.tex" 1791926465 1597 59698fc6f5b54419bd411891f9241060 ""
   "chapters/conclusion.tex" 1791926477 1003 82360aea401304f118186068ff083b33 ""
-  "chapters/introduction.tex" 1792592701 58377 97aef3683dd9ed63a1929bd1a72f6543 ""
+  "chapters/introduction.tex" 1794455952 112361 cab0b7c74ce908651fefa2a81e16f0ef ""
   "chapters/preface.tex" 1791946844 7003 a74be4dccab0591a930e5445d4a3f392 ""
   "figures/imgs/DalyData.png" 1778379262 141492 d88df16b2cbf2a67abdc6c0f9e815ffc ""
   "figures/imgs/Daly_SVOCs.png" 1773422921 827950 c6ebe677f994d0dbe3a6e781b0e6b6b9 ""
@@ -270,16 +273,16 @@
   "figures/imgs/TransportMech.png" 1778377794 114625 b84a57c4106bd2c8539927e8f3e595a4 ""
   "figures/kauke_arch_gray.pdf" 1790645711 223549 ab7020082ad1f1e1eb4902b728d72279 ""
   "figures/kauke_wordmark.pdf" 1790645711 14271 14788e847ade7d9a9b5ce88ad9cc16c9 ""
-  "main.aux" 1792592740 39762 7479d124cc790176109587f7e65ef619 "pdflatex"
-  "main.bbl" 1792592999 139867 b5227bedef6d5775d61c13be98c7efb7 "biber main"
-  "main.ind" 1792522030 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1792592740 2930 9ae2a9aac492f87dca662c1180c06e1d "pdflatex"
-  "main.lol" 1792592740 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
-  "main.lot" 1792592740 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
-  "main.out" 1792592740 19098 2eb056e8e905da6c64391acae860df39 "pdflatex"
-  "main.run.xml" 1792592740 2339 1ed341041bd1fbe5a1f3b1992463a6cc "pdflatex"
+  "main.aux" 1794456522 43300 18505d1e2a0ae2bca2c7a6bdee1edf53 "pdflatex"
+  "main.bbl" 1794456506 163544 790962afb6c7af09417a96d76b79a5ba "biber main"
+  "main.ind" 1794456485 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1794456522 2796 9de47b35ed361d6d1e7d7d8363b6ac00 "pdflatex"
+  "main.lol" 1794456522 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
+  "main.lot" 1794456522 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
+  "main.out" 1794456522 19098 2eb056e8e905da6c64391acae860df39 "pdflatex"
+  "main.run.xml" 1794456522 2339 1ed341041bd1fbe5a1f3b1992463a6cc "pdflatex"
   "main.tex" 1792022466 20514 5aded588c06fb8c112693e965a1a3e38 ""
-  "main.toc" 1792592740 7643 f471f12210084d98a337bf7d3b48a210 "pdflatex"
+  "main.toc" 1794456522 7647 b37dc7ba07efab2d920e691fd4fb70a9 "pdflatex"
   "styles/lshortwooster.sty" 1790645711 6574 abb9186f8831a12a2f26abb1bc1d42c5 ""
   "styles/packages.tex" 1790645711 1446 91580cee291c03402b9d790efa804cb9 ""
   "styles/personal.tex" 1790645711 4969 4874ce4cd26aafd719e030f3abe9433e ""

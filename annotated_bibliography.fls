@@ -98,12 +98,6 @@ INPUT C:\Users\raely\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\raely\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\raely\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\raely\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\annotated_bibliography.out
-INPUT .\annotated_bibliography.out
-INPUT annotated_bibliography.out
-INPUT annotated_bibliography.out
-INPUT .\annotated_bibliography.out
-INPUT .\annotated_bibliography.out
 OUTPUT annotated_bibliography.out
 OUTPUT annotated_bibliography.pdf
 INPUT C:\Users\raely\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex annotated_bibliography"] 1791758969.45255 "annotated_bibliography.aux" "annotated_bibliography.bbl" "annotated_bibliography" 1791758971.29571 0
-  "./csreferencesonly.bib" 1791758849 13138 151f614a390eb2b8cf44e82432cac1e7 ""
+["bibtex annotated_bibliography"] 0 "annotated_bibliography.aux" "annotated_bibliography.bbl" "annotated_bibliography" 0 -1
+  "./csreferencesonly.bib" 1791764423 13265 9a9db34228bfd8d7a116bed3e157bf14 ""
   "./plain-annote.bst" 1791398362 20156 1fd08483579a310a63b463bf15a947dc ""
-  "annotated_bibliography.aux" 1791758970 448 bbf20aa66c198020982a8740ba6b5b5a "pdflatex"
+  "annotated_bibliography.aux" 1794442090 1909 b5aedfc767b38067df1214863d1f8f7e "pdflatex"
   (generated)
   "annotated_bibliography.bbl"
   "annotated_bibliography.blg"
   (rewritten before read)
-["pdflatex"] 1791758969.80962 "c:/Users/raely/SeniorISRepo/temp-is-template/annotated_bibliography.tex" "annotated_bibliography.pdf" "annotated_bibliography" 1791758971.29674 0
-  "C:/Users/raely/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790646619 83282 621ebaed9bd86f6f3d021276677be3b2 ""
+["pdflatex"] 1794442089.75736 "c:/Users/raely/SeniorISRepo/temp-is-template/annotated_bibliography.tex" "annotated_bibliography.pdf" "annotated_bibliography" 1794442092.05799 2
+  "C:/Users/raely/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792020523 83282 621ebaed9bd86f6f3d021276677be3b2 ""
   "C:/Users/raely/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756409359 24225046 9d1ce1fb2fbe9d55c578e806ac1adf80 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -61,11 +61,11 @@
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/raely/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "annotated_bibliography.aux" 1791758970 448 bbf20aa66c198020982a8740ba6b5b5a "pdflatex"
-  "annotated_bibliography.bbl" 1791758969 6130 1f44fa650b6e8b1659da18231e85c9f3 "bibtex annotated_bibliography"
-  "annotated_bibliography.out" 1791758970 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "annotated_bibliography.tex" 1791758965 1009 208547c1129ccd42e4f67622147829f6 ""
-  "c:/Users/raely/SeniorISRepo/temp-is-template/annotated_bibliography.tex" 1791758965 1009 208547c1129ccd42e4f67622147829f6 ""
+  "annotated_bibliography.aux" 1794442090 1909 b5aedfc767b38067df1214863d1f8f7e "pdflatex"
+  "annotated_bibliography.bbl" 1794441803 46162 08027b1a7bf7370264ffdc556c33107b "bibtex annotated_bibliography"
+  "annotated_bibliography.out" 1794442090 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "annotated_bibliography.tex" 1794441761 1009 208547c1129ccd42e4f67622147829f6 ""
+  "c:/Users/raely/SeniorISRepo/temp-is-template/annotated_bibliography.tex" 1794441761 1009 208547c1129ccd42e4f67622147829f6 ""
   (generated)
   "annotated_bibliography.aux"
   "annotated_bibliography.log"
